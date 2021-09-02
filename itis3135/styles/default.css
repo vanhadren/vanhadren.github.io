@@ -2,7 +2,7 @@
 
 body{
     font-family: Georgia;
-    color:#9b2226ff;
+    color:#ca6702ff;
     background-color:#001219ff;
     margin-left:150px;
     margin-right:150px;
@@ -11,7 +11,7 @@ body{
 }
 header,footer{
     text-align: center;
-    color:#ca6702ff;
+    color:#9b2226ff;
     font-weight:initial;
 }
 h1,h2,h3{
