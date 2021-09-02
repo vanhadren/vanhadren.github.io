@@ -6,12 +6,12 @@ body{
     background-color:#001219ff;
     margin-left: auto;
     margin-right:auto;
-    text-align: center;
+    text-align:left;
 }
 header,footer{
     text-align: center;
     color:#ca6702ff;
-    font-weight: bold;
+    font-weight:initial;
 }
 h1,h2{
     color:#ca6702ff;
