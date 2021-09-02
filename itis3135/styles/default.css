@@ -2,10 +2,10 @@
 
 body{
     font-family: Georgia;
-    color:#9b2226ff;
+    color:#ca6702ff;
     background-color:#001219ff;
-    margin-left:150px;
-    margin-right:150px;
+    margin-left:250px;
+    margin-right:250px;
     }
 header,footer{
     text-align: center;
@@ -23,7 +23,6 @@ figure{
 nav{
     text-align: center;
     color:#ca6702ff;
-    
 }
 
 
