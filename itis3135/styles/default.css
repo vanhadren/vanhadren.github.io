@@ -1,0 +1,28 @@
+/* Coolors Exported Palette - https://coolors.co/001219-005f73-ca6702-9b2226 */
+
+body{
+    font-family: Georgia;
+    color:#ca6702ff;
+    background-color:#001219ff;
+}
+header,footer{
+    text-align: center;
+    color:#ca6702ff;
+    font-weight: bold;
+}
+h1,h2{
+    color:#ca6702ff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    color:#9b2226ff;
+}
+
+
+/* SCSS HEX */
+$rich-black-fogra-29: #001219ff;
+$blue-sapphire: #005f73ff;
+$alloy-orange: #ca6702ff;
+$ruby-red: #9b2226ff;
