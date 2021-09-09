@@ -15,6 +15,7 @@ th,td{
     padding: .2em 1em .2em .5em;
     text-align: left;
     vertical-align: middle;
+    color: white;
 }
 .right{
     text-align: right;
@@ -25,7 +26,7 @@ tbody tr:nth-child(odd) td{
 }
 tbody tr:nth-child(even) td{
     background-color: #ca6702ff;
-    color: black;
+    color: white;
 }
 
 
