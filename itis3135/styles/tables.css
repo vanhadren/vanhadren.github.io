@@ -8,7 +8,7 @@ table{
     margin: 20px;
 }
 thead{
-    background-color: #ca6702ff;
+    background-color: rgb(145, 75, 5);
 }
 th,td{
     border: 1px solid black;
@@ -22,6 +22,10 @@ th,td{
 tbody tr:nth-child(odd) td{
     background-color: rgb(35, 19, 80);
     color: white;
+}
+tbody tr:nth-child(even) td{
+    background-color: #ca6702ff;
+    color: black;
 }
 
 
