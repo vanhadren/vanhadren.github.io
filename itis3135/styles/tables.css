@@ -1,0 +1,32 @@
+/* ITIS 3135 activity 2 css file */
+body{
+    width: 750px;
+    margin: 0 auto;
+}
+table{
+    border-collapse: collapse;
+    margin: 20px;
+}
+thead{
+    background-color: #ca6702ff;
+}
+th,td{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+.right{
+    text-align: right;
+}
+tbody tr:nth-child(odd) td{
+    background-color: rgb(35, 19, 80);
+}
+
+
+/* SCSS HEX 
+$rich-black-fogra-29: #001219ff;
+$blue-sapphire: #005f73ff;
+$alloy-orange: #ca6702ff;
+$ruby-red: #9b2226ff;
+*/
