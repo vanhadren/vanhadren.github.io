@@ -21,6 +21,7 @@ th,td{
 }
 tbody tr:nth-child(odd) td{
     background-color: rgb(35, 19, 80);
+    color: white;
 }
 
 
