@@ -1,11 +1,20 @@
 /* ITIS 3135 activity 2 css file */
-body{
-    width: 750px;
-    margin: 0 auto;
+#caption{
+    text-align: center;
 }
-table{
+body{
+    font-family: Georgia;
+    color:#ca6702ff;
+    background-color:dimgrey;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{    
     border-collapse: collapse;
     margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 thead{
     background-color: rgb(145, 75, 5);
@@ -17,6 +26,7 @@ th,td{
     vertical-align: middle;
     color: white;
 }
+
 .right{
     text-align: right;
 }
@@ -28,7 +38,31 @@ tbody tr:nth-child(even) td{
     background-color: #ca6702ff;
     color: white;
 }
+header,footer{
+    text-align: center;
+    color:#ca6702ff;
+    font-weight:initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    text-align: center;
+    color:#ca6702ff;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+h1,h2,h3{
+    color:#ca6702ff;
+    font-family: 'Gerogia';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* SCSS HEX 
 $rich-black-fogra-29: #001219ff;
