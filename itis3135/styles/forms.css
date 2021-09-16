@@ -4,7 +4,7 @@
 
 body{
     font-family: Georgia;
-    color:rgb(185, 99, 13);
+    color:rgb(216, 144, 73);
     background-color:dimgrey;
     margin-left:250px;
     margin-right:250px;
@@ -12,7 +12,7 @@ body{
 
 header,footer{
     text-align: center;
-    color:rgb(185, 99, 13);
+    color:rgb(216, 144, 73);
     font-weight:initial;
     margin-left: 5em;
 }
@@ -20,7 +20,7 @@ h2{
     text-align: center;
 }
 form{
-    color:rgb(185, 99, 13);
+    color:rgb(216, 144, 73);
 	font-size:18px;  
 	font-style: italic;
 	background-color:dimgrey;
@@ -35,6 +35,6 @@ form{
 }
 nav{
     text-align: center;
-    color:rgb(185, 99, 13);
+    color:rgb(216, 144, 73);
 
 }
