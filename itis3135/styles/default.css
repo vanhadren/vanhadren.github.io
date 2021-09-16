@@ -2,7 +2,7 @@
 
 body{
     font-family: Georgia;
-    color:#ca6702ff;
+    color:rgb(156, 79, 1);
     background-color:dimgrey;
     margin-left:250px;
     margin-right:250px;
@@ -10,12 +10,12 @@ body{
     }
 header,footer{
     text-align: center;
-    color:#ca6702ff;
+    color:rgb(156, 79, 1);
     font-weight:initial;
     margin-left: 5em;
 }
 h1,h2,h3{
-    color:#ca6702ff;
+    color:rgb(156, 79, 1);
     font-family: 'Gerogia';
     text-align: center;
     
@@ -25,7 +25,7 @@ figure{
 }
 nav{
     text-align: center;
-    color:#ca6702ff;
+    color:rgb(156, 79, 1);
 
 }
 

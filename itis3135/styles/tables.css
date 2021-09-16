@@ -4,7 +4,7 @@
 }
 body{
     font-family: Georgia;
-    color:#ca6702ff;
+    color:rgb(156, 79, 1);
     background-color:dimgrey;
     width: auto;
     margin-left: auto;
@@ -35,25 +35,25 @@ tbody tr:nth-child(odd) td{
     color: white;
 }
 tbody tr:nth-child(even) td{
-    background-color: #ca6702ff;
+    background-color: rgb(156, 79, 1);
     color: white;
 }
 header,footer{
     text-align: center;
-    color:#ca6702ff;
+    color:rgb(156, 79, 1);
     font-weight:initial;
     margin-left: auto;
     margin-right: auto;
 }
 nav{
     text-align: center;
-    color:#ca6702ff;
+    color:rgb(156, 79, 1);
     margin-left: auto;
     margin-right: auto;
 
 }
 h1,h2,h3{
-    color:#ca6702ff;
+    color:rgb(156, 79, 1);
     font-family: 'Gerogia';
     text-align: center;
     margin-left: auto;
