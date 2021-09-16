@@ -18,7 +18,6 @@ h1,h2,h3{
     color:rgb(216, 144, 73);
     font-family: 'Gerogia';
     text-align: center;
-    
 }
 figure{
     text-align:center;
@@ -28,7 +27,10 @@ nav{
     color:rgb(216, 144, 73);
 
 }
-
+p{
+    text-align: left;
+    margin:auto;
+}
 
 /* SCSS HEX 
 $rich-black-fogra-29: #001219ff;
