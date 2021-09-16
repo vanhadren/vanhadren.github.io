@@ -4,7 +4,7 @@
 }
 body{
     font-family: Georgia;
-    color:rgb(156, 79, 1);
+    color:rgb(185, 99, 13);
     background-color:dimgrey;
     width: auto;
     margin-left: auto;
@@ -17,7 +17,7 @@ table{
     margin-right: auto;
 }
 thead{
-    background-color: rgb(145, 75, 5);
+    background-color: rgb(185, 19, 13);
 }
 th,td{
     border: 1px solid black;
@@ -35,25 +35,25 @@ tbody tr:nth-child(odd) td{
     color: white;
 }
 tbody tr:nth-child(even) td{
-    background-color: rgb(156, 79, 1);
+    background-color: rgb(185, 99, 13);
     color: white;
 }
 header,footer{
     text-align: center;
-    color:rgb(156, 79, 1);
+    color:rgb(185, 99, 13);
     font-weight:initial;
     margin-left: auto;
     margin-right: auto;
 }
 nav{
     text-align: center;
-    color:rgb(156, 79, 1);
+    color:rgb(185, 99, 13);
     margin-left: auto;
     margin-right: auto;
 
 }
 h1,h2,h3{
-    color:rgb(156, 79, 1);
+    color:rgb(185, 99, 13);
     font-family: 'Gerogia';
     text-align: center;
     margin-left: auto;
