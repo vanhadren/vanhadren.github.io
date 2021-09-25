@@ -41,13 +41,18 @@
     <main style="text-align: center;"  >
         <body>
             <p>
-            <script>
+                <script>
+                let sumBTN = document.createElement("button");
+                btn.innerHTML= 'sum of three numbers';
+                sumBTN.onclick = function(){
                 alert(" the find the sum of 3 numbers application");
                 var num1 = prompt("enter the first number");
                 var num2 = prompt("enter the second number");
                 var num3 = prompt("enter the third number");
                 var sum = parseInt(num1+num2+num3);
                 alert("the sum of the three numbers you entered are: "+ sum);
+                }; 
+                document.body.appendChild(sumBTN);
             </script>
             </p>
         </body>
