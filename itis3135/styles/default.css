@@ -27,9 +27,10 @@ nav{
     color:rgb(216, 144, 73);
 
 }
-body{
+p{
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
 }
 
 /* SCSS HEX 
