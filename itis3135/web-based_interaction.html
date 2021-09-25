@@ -12,9 +12,7 @@
         var name = prompt("Enter your Name");
         var feeling = prompt("Enter how you are feeling");
         var  today = new Date();
-        document.write("today is " +today.getDate()+"/"+ today.getMonth()+"/"+today.getFullYear()+"\n\n and the time is: "+ today.getHours+":"+today.getMinutes);
-        document.write("\n\nThe Tyrannical Enormous Rottweiler company welcomes you, " + name+ "!");
-        document.write("\n\nWe're glad you are doing" + feeling+"!");
+       
     </script>
 </head>
 
@@ -40,6 +38,13 @@
     <h2>Web-Based interaction</h2>
     <main style="text-align: center;"  >
         <body>
+            <p>
+                <script>
+                     document.write("today is " +today.getDate()+"/"+ today.getMonth()+"/"+today.getFullYear()+"\n\n and the time is: "+ today.getHours+":"+today.getMinutes);
+                     document.write("\n\nThe Tyrannical Enormous Rottweiler company welcomes you, " + name+ "!");
+                     document.write("\n\nWe're glad you are doing" + feeling+"!");
+                </script>
+            </p>
             <p>
                 <script>
                 let sumBTN = document.createElement("button");
