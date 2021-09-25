@@ -4,9 +4,9 @@ body{
     font-family: Georgia;
     color:rgb(216, 144, 73);
     background-color:dimgrey;
-    width:50%;
-    margin-left:25%;
-    margin-right:25%;
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
 
     }
 header,footer{
