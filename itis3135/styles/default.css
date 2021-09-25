@@ -4,8 +4,8 @@ body{
     font-family: Georgia;
     color:rgb(216, 144, 73);
     background-color:dimgrey;
-    margin-left:250px;
-    margin-right:250px;
+    margin-left:auto;
+    margin-right:auto;
 
     }
 header,footer{
@@ -30,7 +30,7 @@ nav{
 p{
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    
 }
 
 /* SCSS HEX 
