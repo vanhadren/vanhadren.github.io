@@ -4,11 +4,13 @@ body{
     font-family: Georgia;
     color:rgb(216, 144, 73);
     background-color:dimgrey;
-    width:100px;
-    margin-left:auto;
-    margin-right:auto;
-
     }
+    main{
+        width:400px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
 header,footer{
     text-align: center;
     color:rgb(216, 144, 73);
