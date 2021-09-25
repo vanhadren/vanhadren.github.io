@@ -4,8 +4,9 @@ body{
     font-family: Georgia;
     color:rgb(216, 144, 73);
     background-color:dimgrey;
-    margin-left:auto;
-    margin-right:auto;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
 
     }
 header,footer{
@@ -29,8 +30,9 @@ nav{
 }
 
 button{
-    margin-left: 1000px;
-    margin-right: 900px;
+   width:20%;
+   margin-left: 40%;
+   margin-right: 40%;
 }
 /* SCSS HEX 
 $rich-black-fogra-29: #001219ff;
