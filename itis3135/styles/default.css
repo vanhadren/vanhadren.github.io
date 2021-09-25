@@ -27,14 +27,9 @@ nav{
     color:rgb(216, 144, 73);
 
 }
-p{
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-div{
-    margin-left: auto;
-    margin-right: auto;
+
+button{
+    margin-left: 850px;
 }
 /* SCSS HEX 
 $rich-black-fogra-29: #001219ff;
