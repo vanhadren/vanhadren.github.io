@@ -51,10 +51,10 @@
                 sumBTN.innerHTML= "sum of three numbers";
                 sumBTN.onclick = function(){
                 alert(" the find the sum of 3 numbers application");
-                var num1 = prompt("enter the first number");
-                var num2 = prompt("enter the second number");
-                var num3 = prompt("enter the third number");
-                var sum = parseInt(num1+num2+num3);
+                let num1 = parseInt(prompt("enter the first number"));
+                let num2 = parseInt(prompt("enter the second number"));
+                let num3 = parseInt(prompt("enter the third number"));
+                let sum = num1+num2+num3;
                 alert("the sum of the three numbers you entered are: "+ sum);
                 }; 
                 document.body.appendChild(sumBTN);
