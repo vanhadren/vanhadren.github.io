@@ -11,16 +11,18 @@
         // We're glad you are doing (put what they put here)!
         var name = prompt("Enter your Name");
         var feeling = prompt("Enter how you are feeling");
-        var  today = new Date();
+        var today = new Date();
         let companyName = "The Tyrannical Enormous Rottweiler Company"
-       
+
     </script>
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
+   
     <header>
         <h1><em>Taylor Rogers</em> >> ITIS3135</h1>
     </header>
+
     <nav>
         <a href="index.html">index</a>
         ||
@@ -35,104 +37,99 @@
         <a href="brand-tyrannical-rottweiler.html">TryanicalRots</a>
         ||
         <a href="first-scripts.html">Scripts</a>
-       
     </nav>
 
     <h2>Web-Based interaction</h2>
+
     <main>
-         <div>
+        <div>
             <p>
                 <script>
-                     document.write("Today is " +today.getDate()+"/"+ today.getMonth()+"/"+today.getFullYear()+ "<br>" +"The time is: "+ today.getHours()+":"+today.getMinutes()+ "<br>") ;
-                     document.write(companyName +" welcomes you, " + name+ "!"+ "<br>");
-                     document.write("We're glad you are doing " + feeling+"!");
+                    document.write("Today is " + today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear() + "<br>" + "The time is: " + today.getHours() + ":" + today.getMinutes() + "<br>");
+                    document.write(companyName + " welcomes you, " + name + "!" + "<br>");
+                    document.write("We're glad you are doing " + feeling + "!");
                 </script>
             </p>
             <p>
                 <script>
-                let sumBTN = document.createElement("button");
-                sumBTN.innerHTML= "sum of three numbers";
-                sumBTN.onclick = function()
-                {
-                    alert(" the find the sum of 3 numbers application");
+                    let sumBTN = document.createElement("button");
+                    sumBTN.innerHTML = "sum of three numbers";
+                    sumBTN.onclick = function () {
+                        alert(" the find the sum of 3 numbers application");
                         let num1 = parseInt(prompt("enter the first number"));
                         let num2 = parseInt(prompt("enter the second number"));
                         let num3 = parseInt(prompt("enter the third number"));
-                        let sum = num1+num2+num3;
-                    alert("the sum of the three numbers you entered are: "+ sum);
-                }; 
-                document.body.appendChild(sumBTN);
-            </script>
+                        let sum = num1 + num2 + num3;
+                        alert("the sum of the three numbers you entered are: " + sum);
+                    };
+                    document.body.appendChild(sumBTN);
+                </script>
             </p>
 
             <p>
                 <script>
-                let difBTN = document.createElement("button");
-                difBTN.innerHTML= "difference of three numbers";
-                difBTN.onclick = function()
-                {
-                    alert(" the find the difference of 3 numbers application");
+                    let difBTN = document.createElement("button");
+                    difBTN.innerHTML = "difference of three numbers";
+                    difBTN.onclick = function () {
+                        alert(" the find the difference of 3 numbers application");
                         let num1 = parseInt(prompt("enter the first number"));
                         let num2 = parseInt(prompt("enter the second number"));
                         let num3 = parseInt(prompt("enter the third number"));
-                        let sum = num1-num2-num3;
-                    alert("the sum of the three numbers you entered are: "+ sum);
-                }; 
-                document.body.appendChild(difBTN);
-            </script>
+                        let sum = num1 - num2 - num3;
+                        alert("the sum of the three numbers you entered are: " + sum);
+                    };
+                    document.body.appendChild(difBTN);
+                </script>
             </p>
-           
+
             <p>
                 <script>
-                let strBTN = document.createElement("button");
-                strBTN.innerHTML= "Concat Strings";
-                strBTN.onclick = function()
-                {
-                    alert(" concat 2 strings");
+                    let strBTN = document.createElement("button");
+                    strBTN.innerHTML = "Concat Strings";
+                    strBTN.onclick = function () {
+                        alert(" concat 2 strings");
                         var num1 = prompt("enter the first string");
                         var num2 = prompt("enter the second string");
-                        let sum = num1+ " " +num2;
-                    alert("the concatanated string is: "+ sum);
-                }; 
-                document.body.appendChild(strBTN);
+                        let sum = num1 + " " + num2;
+                        alert("the concatanated string is: " + sum);
+                    };
+                    document.body.appendChild(strBTN);
                 </script>
             </p>
 
             <p>
                 <script>
-                let taxBTN = document.createElement("button");
-                taxBTN.innerHTML= "calculate sales tax";
-                taxBTN.onclick = function()
-                {
-                    alert(" find sales tax");
+                    let taxBTN = document.createElement("button");
+                    taxBTN.innerHTML = "calculate sales tax";
+                    taxBTN.onclick = function () {
+                        alert(" find sales tax");
                         let subtotal = parseInt(prompt("enter the subtotal"));
                         const salestax = .07;
-                        let tax_amount = subtotal *salestax;
-                        let total = subtotal +tax_amount;
-                    alert("the total amount is: "+ total);
-                }; 
-                document.body.appendChild(taxBTN);
-            </script>
+                        let tax_amount = subtotal * salestax;
+                        let total = subtotal + tax_amount;
+                        alert("the total amount is: " + total);
+                    };
+                    document.body.appendChild(taxBTN);
+                </script>
             </p>
             <p>
                 <script>
-                let areaBTN = document.createElement("button");
-                areaBTN.innerHTML= "area of any rectangle";
-                areaBTN.onclick = function()
-                {
-                    alert(" find the area of any rectangle application");
+                    let areaBTN = document.createElement("button");
+                    areaBTN.innerHTML = "area of any rectangle";
+                    areaBTN.onclick = function () {
+                        alert(" find the area of any rectangle application");
                         let num1 = parseInt(prompt("enter the width"));
                         let num2 = parseInt(prompt("enter the length"));
-                        let sum = (2* num1) + ((2*num2));
-                    alert("the area of the rectangle is: "+ sum);
-                }; 
-                document.body.appendChild(areaBTN);
-            </script>
+                        let sum = (2 * num1) + ((2 * num2));
+                        alert("the area of the rectangle is: " + sum);
+                    };
+                    document.body.appendChild(areaBTN);
+                </script>
             </p>
         </div>
     </main>
- </body>
-    
+
+
     <footer> <br><br>
 
         <nav>
@@ -150,14 +147,13 @@
             ||
             <a href="https://www.freecodecamp.org/troger43" target="blank">MyPage@CodeCamp.org
             </a>
-
-
         </nav>
         <br>
         <p style="text-align: center;">
             page built by Tyrannical Enormous Rottweiler company
         </p>
-        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Ftroger43%2Fitis3135%2Ffirst-scripts.html">
+        <a
+            href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Ftroger43%2Fitis3135%2Ffirst-scripts.html">
             <img src="images/button-valid-html5.gif" width="88" height="31" alt="link to HTML validator"></a>
 
         <a
@@ -165,5 +161,6 @@
             <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator"></a>
 
     </footer>
+</body>
 
 </html>
