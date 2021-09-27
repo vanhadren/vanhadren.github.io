@@ -30,6 +30,14 @@ nav{
     color:rgb(216, 144, 73);
 
 }
+a:link, a:visited{
+    color : purple;
+    text-decoration: none;
+
+}
+a:hover{
+    color: white;
+}
 
 button{
    width:10%;
