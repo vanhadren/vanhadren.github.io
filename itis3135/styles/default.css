@@ -44,6 +44,22 @@ button{
    margin-left: 45%;
    margin-right: 45%;
 }
+tbody tr:nth-child(odd) td{
+    background-color: rgb(35, 19, 80);
+    color: rgb(216, 144, 73);
+}
+tbody tr:nth-child(even) td{
+    background-color: rgb(216, 144, 73);
+    color: rgb(216, 144, 73);
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.right{
+    text-align: right;
+}
 /* SCSS HEX 
 $rich-black-fogra-29: #001219ff;
 $blue-sapphire: #005f73ff;
