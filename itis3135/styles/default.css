@@ -50,7 +50,7 @@ tbody tr:nth-child(odd) td{
 }
 tbody tr:nth-child(even) td{
     background-color: rgb(216, 144, 73);
-    color: rgb(216, 144, 73);
+    color: rgb(35, 19, 80);
 }
 .center{
     margin-right: auto;
