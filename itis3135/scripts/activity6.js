@@ -1,7 +1,8 @@
 var name = document.getElementById('name').value;
 var numberOfSides = document.getElementById('side').value;
 var i =0;
-while (i==0){
+while (i==0)
+{
     if (validateEntry(numberOfSides))
     {
         var temp = polyFinder(numberOfSides);
@@ -10,7 +11,8 @@ while (i==0){
     }
 }
 
-function validateEntry(numberOfSides){
+function validateEntry(numberOfSides)
+{
     if(typeof numberOfSides == "number")
     {
         if (numberOfSides >= -10 && numberOfSides <= 10)
