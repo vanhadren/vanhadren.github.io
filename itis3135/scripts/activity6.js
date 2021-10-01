@@ -3,7 +3,7 @@ var i = 0;
 var x;
 
 
-
+//keep looping until entry is valid
 while (i==0)
     {  
          if(!validateEntry(polyType))
@@ -14,12 +14,12 @@ while (i==0)
         }
         else
             {
-            polyType = prompt("Please enter a Nonzero number between 1 and 10");
+            polyType = prompt("Apologies from The Tyrannical Enormous Rottweiler company but please enter a Nonzero number between 1 and 10");
             }
         }
     function getNumSides()
     {
-        var sides = prompt("welcome. enter number of sides");
+        var sides = prompt("The Tyrannical Enormous Rottweiler company welcomes you, give us a number of sides to find out the polygons name.");
             return sides;
     }
 function polyFinder(sides) 
