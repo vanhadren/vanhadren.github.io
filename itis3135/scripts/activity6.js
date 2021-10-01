@@ -14,14 +14,14 @@ while (i==0)
         }
         else
             {
-            polyType = "Please enter a Nonzero number between 1 and 10"
+            polyType = prompt("Please enter a Nonzero number between 1 and 10");
             }
         }
     function getNumSides()
-{
-    var sides = prompt("welcome. enter number of sides");
-        return sides;
-}
+    {
+        var sides = prompt("welcome. enter number of sides");
+            return sides;
+    }
 function polyFinder(sides) 
 {
             x = Math.round(Math.abs(sides));
