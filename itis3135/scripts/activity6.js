@@ -2,26 +2,18 @@
 var i = 0;
 var x = 0;
 
-function validateEntry(sides) {
-    if (typeof sides == "number") {
-        if (sides >= -10 && sides <= 10) {
-            return (true);
-        }
-    }
-    else {
-        return false;
-    }
-}
-
-function polyFinder(x) {
+function polyFinder(x) 
+{
     //set variables with prompt
     var sides = prompt("welcome. enter number of sides");
     var flag = validateEntry(sides);
-    while (flag) {
-        if (validateEntry(sides)) {
+    while (flag) 
+    {
+        if (validateEntry(sides)) 
+        {
             x = Math.round(Math.abs(sides));
-            console.log(x);
-            switch (x) {
+            switch (x) 
+            {
                 case 0:
                     alert("entry can not be ZERO");
                     break;
@@ -61,11 +53,26 @@ function polyFinder(x) {
 
             }
         }
-        else {
+        else 
+        {
 
 
             sides = prompt("please enter a number between 1 and 10");
 
+        }
+        
+        function validateEntry(sides) 
+        {
+            if (typeof sides == "number") 
+            {
+                if (sides >= -10 && sides <= 10) 
+                {
+                    return (true);
+                }
+            }
+            else {
+                return false;
+            }
         }
     }
 }
