@@ -4,7 +4,8 @@ var numberOfSides = document.getElementById('side').value;
 function polyFinder(x)
 {
     
-    x = Math.round(Math.abs(numberOfSides));console.log(x);
+    x = Math.round(Math.abs(numberOfSides));
+    console.log(x);
         switch(x)
         {
             case 0:
