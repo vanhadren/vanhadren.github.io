@@ -1,13 +1,20 @@
-
+var polyType = polyFinder();
 var i = 0;
 var x = 0;
 
-var sides = prompt("welcome. enter number of sides");
+
 
 while (i==0)
-    {
+    {  
+         if(validateEntry(sides)){
+        var sides = prompt("welcome. enter number of sides");
         polyFinder(sides);
         i=1;
+    }
+        else
+        {
+            polyType = "Please enter a Nonzero number between 1 and 10"
+
     }
 function polyFinder(x) 
 {
