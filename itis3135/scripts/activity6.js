@@ -1,5 +1,4 @@
-var name = document.getElementById('name').value;
-var numberOfSides = document.getElementById('side').value;
+
 var i =0;
 var x =0;
 
@@ -9,7 +8,7 @@ function validateEntry(numberOfSides)
     {
         if (numberOfSides >= -10 && numberOfSides <= 10)
         {
-            return (numberOfSides == numberOfSides);
+            return (true);
         }
     }
 }
