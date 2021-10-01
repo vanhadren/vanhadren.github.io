@@ -11,24 +11,27 @@ function validateEntry(numberOfSides)
             return (true);
         }
     }
+    else
+    {
+        return false;
+    }
 }
 
 function polyFinder(x)
 {
 //set variables with prompt
 var sides = prompt("welcome. enter number of sides");
-   while (i==0)
+   while (!validateEntry(sides))
 {
     if (validateEntry(sides))
     {
-        var temp = sides;
-       x=temp;
-        i=1;
+       sides = prompt("please enter a number between 1 and 10");
     }
+
 } 
 //set validated num to x
 
-    x = Math.round(Math.abs(x));
+    x = Math.round(Math.abs(sides));
     console.log(x);
         switch(x)
         {
