@@ -1,7 +1,7 @@
 var name = document.getElementById('name').value;
 var numberOfSides = document.getElementById('side').value;
 var i =0;
-
+var x =0;
 
 function validateEntry(numberOfSides)
 {
@@ -16,16 +16,19 @@ function validateEntry(numberOfSides)
 
 function polyFinder(x)
 {
-
+//set variables with prompt
+var sides = prompt("welcome. enter number of sides");
    while (i==0)
 {
-    if (validateEntry(numberOfSides))
+    if (validateEntry(sides))
     {
-        var temp = polyFinder(numberOfSides);
-        alert(temp);
+        var temp = sides;
+       x=temp;
         i=1;
     }
 } 
+//set validated num to x
+
     x = Math.round(Math.abs(numberOfSides));
     console.log(x);
         switch(x)
