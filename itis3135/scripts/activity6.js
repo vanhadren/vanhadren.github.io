@@ -22,10 +22,8 @@ while (i==0)
     var sides = prompt("welcome. enter number of sides");
         return sides;
 }
-function polyFinder() 
+function polyFinder(sides) 
 {
-        if (validateEntry(sides)) 
-        {
             x = Math.round(Math.abs(sides));
             switch (x) 
                 {
@@ -68,14 +66,7 @@ function polyFinder()
 
                 }
         }
-        else 
-        {
-
-
-            sides = prompt("please enter a number between 1 and 10");
-
-        }
-
+        
         function validateEntry(sides) 
         {
             if (typeof sides == "number") 
@@ -90,4 +81,4 @@ function polyFinder()
             }
         }
     }
-}
+
