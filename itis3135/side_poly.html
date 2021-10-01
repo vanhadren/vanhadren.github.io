@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <link href="styles/default.css" rel="stylesheet" type="text/css">
     <title> Taylor Rogers, ITIS3135, Polygon </title>
-    <Script src="scripts/activity6.js"></Script>
+    <script src="scripts/activity6.js"></script>
 </head>
 
-<body onload="polyFinder()" data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed onload="">
+<body onload="polyFinder()" data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
     <header>
         <h1><em>Taylor Rogers</em> >> ITIS3135</h1>
     </header>
@@ -31,7 +31,13 @@
     </nav>
     <main>
         <h2> Name the Polygon</h2></he>
-        
+        <form >
+
+            <input type="text" id="name" placeholder="name" required><br>
+            <input type="text" id="side" placeholder="how many sides" required><br>
+            <button type="button" value="Submit" action='polyFinder("side")'>Submit</button>
+
+        </form>
     </main>
 
    
