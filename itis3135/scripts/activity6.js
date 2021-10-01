@@ -1,4 +1,4 @@
-var polyType = polyFinder();
+var polyType = getNumSides();
 var i = 0;
 var x;
 
@@ -6,16 +6,22 @@ var x;
 
 while (i==0)
     {  
-         if(validateEntry(sides)){
-        var sides = prompt("welcome. enter number of sides");
-        polyFinder(sides);
+         if(validateEntry(sides))
+        { 
+        var type = polyFinder(sides);
+        alert (type);       
         i=1;
-    }
+        }
         else
-        {
+            {
             polyType = "Please enter a Nonzero number between 1 and 10"
-
-    }
+            }
+    
+    function getNumSides()
+{
+    var sides = prompt("welcome. enter number of sides");
+        return sides;
+}
 function polyFinder() 
 {
         if (validateEntry(sides)) 
@@ -24,40 +30,40 @@ function polyFinder()
             switch (x) 
                 {
                     case 0:
-                        alert("entry can not be ZERO");
+                        return"entry can not be ZERO";
                         break;
                     case 1:
-                        alert("1 side = Henagon");
+                        return "1 side = Henagon";
                         break;
                     case 2:
-                        alert("2 side = Digon");
+                        return "2 side = Digon";
                         break;
                     case 3:
-                        alert("3 side = Trigon");
+                        return "3 side = Trigon";
                         break;
                     case 4:
-                        alert("4 side = Tetragon");
+                        return "4 side = Tetragon";
                         break;
                     case 5:
-                        alert("5 side = Pentagon");
+                        return "5 side = Pentagon";
                         break;
                     case 6:
-                        alert("6 side = Hexagon");
+                        return "6 side = Hexagon";
                         break;
                     case 7:
-                        alert("7 side = Heptagon");
+                        return "7 side = Heptagon";
                         break;
                     case 8:
-                        alert("8 side = Octagon");
+                        return "8 side = Octagon";
                         break;
                     case 9:
-                        alert("9 side = Nonagon");
+                        return "9 side = Nonagon";
                         break;
                     case 10:
-                        alert("10 side = Decagon");
+                        return "10 side = Decagon";
                         break;
                     default:
-                        alert("please enter a NONZERO number between 1 and 10.");
+                        return "please enter a NONZERO number between 1 and 10.";
                         break;
 
                 }
