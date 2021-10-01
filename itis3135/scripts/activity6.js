@@ -24,6 +24,7 @@ var sides = prompt("welcome. enter number of sides");
    while (!validateEntry(sides))
 {
        sides = prompt("please enter a number between 1 and 10");
+       validateEntry(sides);
 } 
 //set validated num to x
 
