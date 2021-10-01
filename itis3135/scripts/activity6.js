@@ -23,11 +23,7 @@ function polyFinder(x)
 var sides = prompt("welcome. enter number of sides");
    while (!validateEntry(sides))
 {
-    if (validateEntry(sides))
-    {
        sides = prompt("please enter a number between 1 and 10");
-    }
-
 } 
 //set validated num to x
 
