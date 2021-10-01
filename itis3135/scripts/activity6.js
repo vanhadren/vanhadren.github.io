@@ -5,15 +5,17 @@ var x;
 
 
 while (i==0)
-    {  
+    {  console.log(polyType);
          if(validateEntry(polyType))
         { 
+            console.log(polyType);
         var type = polyFinder(polyType);
         alert (type);       
         i=1;
         }
         else
             {
+                console.log(polyType);
             polyType = "Please enter a Nonzero number between 1 and 10"
             }
     
