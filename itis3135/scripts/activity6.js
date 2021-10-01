@@ -1,6 +1,9 @@
+var name = document.getElementById('name').value;
+var numberOfSides = document.getElementById('side').value;
+
 function polyFinder(x)
 {
-    x = Math.round(Math.abs(x));
+    x = Math.round(Math.abs(numberOfSides));
         switch(x)
         {
             case 0:
