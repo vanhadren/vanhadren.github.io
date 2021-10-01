@@ -6,7 +6,7 @@ var x;
 
 while (i==0)
     {  
-         if(validateEntry(polyType))
+         if(!validateEntry(polyType))
         { 
         var type = polyFinder(polyType);
         alert(type);       
