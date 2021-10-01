@@ -6,9 +6,9 @@ var x;
 
 while (i==0)
     {  
-         if(validateEntry(sides))
+         if(validateEntry(polyType))
         { 
-        var type = polyFinder(sides);
+        var type = polyFinder(polyType);
         alert (type);       
         i=1;
         }
