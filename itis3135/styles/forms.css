@@ -19,14 +19,6 @@ header,footer{
 h2{
     text-align: center;
 }
-form{
-    color:rgb(216, 144, 73);
-	font-size:18px;  
-	font-style: italic;
-	background-color:dimgrey;
-	align-items: center;
-	background-color:darkslategray;
-	}
 
 #button{
 	background-color: dimgrey;
