@@ -29,7 +29,7 @@ var sides = prompt("welcome. enter number of sides");
 } 
 //set validated num to x
 
-    x = Math.round(Math.abs(numberOfSides));
+    x = Math.round(Math.abs(x));
     console.log(x);
         switch(x)
         {
