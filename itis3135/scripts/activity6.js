@@ -10,34 +10,34 @@ function polyFinder(numberOfSides)
                 return errorPrompt()
                 break;
                 case 1:
-                return "1 side = Henagon";
+                return prompt("1 side = Henagon");
                 break;
                 case 2:
-                return "2 side = Digon";
+                return prompt("2 side = Digon");
                 break;
                 case 3:
-                return "3 side = Trigon";
+                return prompt("3 side = Trigon");
                 break;    
                 case 4:
-                return "4 side = Tetragon";
+                return  prompt("4 side = Tetragon");
                 break;
                 case 5:
-                return "5 side = Pentagon";
+                return  prompt("5 side = Pentagon");
                 break;
                 case 6:
-                return "6 side = Hexagon";
+                return  prompt("6 side = Hexagon");
                 break;
                 case 7:
-                return "7 side = Heptagon";
+                return  prompt("7 side = Heptagon");
                 break;
                 case 8:
-                return "8 side = Octagon";
+                return  prompt("8 side = Octagon");
                 break;
                 case 9:
-                return "9 side = Nonagon";
+                return  prompt("9 side = Nonagon");
                 break;
                 case 10:
-                return "10 side = Decagon";
+                return  prompt("10 side = Decagon");
                 break;
                 
         }
