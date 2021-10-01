@@ -1,6 +1,6 @@
 var polyType = polyFinder();
 var i = 0;
-var x = 0;
+var x;
 
 
 
@@ -16,7 +16,7 @@ while (i==0)
             polyType = "Please enter a Nonzero number between 1 and 10"
 
     }
-function polyFinder(x) 
+function polyFinder() 
 {
         if (validateEntry(sides)) 
         {
