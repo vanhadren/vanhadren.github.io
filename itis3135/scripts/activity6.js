@@ -2,11 +2,11 @@
 var i =0;
 var x =0;
 
-function validateEntry(numberOfSides)
+function validateEntry(sides)
 {
-    if(typeof numberOfSides == "number")
+    if(typeof sides == "number")
     {
-        if (numberOfSides >= -10 && numberOfSides <= 10)
+        if (sides >= -10 && sides <= 10)
         {
             return (true);
         }
