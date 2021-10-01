@@ -1,13 +1,13 @@
 var name = document.getElementById('name').value;
 var numberOfSides = document.getElementById('side').value;
 
-function polyFinder(numberOfSides)
+function polyFinder()
 {
     x = Math.round(Math.abs(numberOfSides));
         switch(x)
         {
             case 0:
-                return errorPrompt()
+                return "entry can not be ZERO";
                 break;
                 case 1:
                 return prompt("1 side = Henagon");
@@ -39,10 +39,9 @@ function polyFinder(numberOfSides)
                 case 10:
                 return  prompt("10 side = Decagon");
                 break;
+                default:
+                return "please enter a NONZERO number between 1 and 10.";
+                break;
                 
         }
-}
-function errorPrompt()
-{
-    return "please enter a NONZERO number between 1 and 10."
 }
