@@ -16,7 +16,7 @@ function validateEntry(sides) {
 function polyFinder(x) {
     //set variables with prompt
     var sides = prompt("welcome. enter number of sides");
-    var flag = validateEntry(side);
+    var flag = validateEntry(sides);
     while (flag) {
         if (validateEntry(sides)) {
             x = Math.round(Math.abs(sides));
