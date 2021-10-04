@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <link href="styles/default.css" rel="stylesheet" type="text/css">
     <title> Taylor Rogers, ITIS3135, Website Evaluations </title>
-    <script src="https://code.jquery.com/jquerty-1.10.2.js"></script>
-  <script> src="scripts/Calculator_try.js"</script>
+    <!--<script> src="scripts/Calculator_try.js"</script>-->
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
@@ -48,7 +47,7 @@
         </tr>
         <tr>   
             <td>
-                <input type="button" value="+" onclick = "calculator.dispaly.value +='+'">
+                <input type="button" class="operator" value="+" onclick = "calculator.dispaly.value +='+'">
             </td>
             <td>
                 <input type="button" value="1" onclick = "calculator.dispaly.value +='1'">
@@ -59,9 +58,10 @@
             <td>
                 <input type="button" value="3" onclick = "calculator.dispaly.value +='3'">
             </td>
-            <!---->
+        </tr>
+        <tr>
             <td>
-                <input type="button" value="-" onclick = "calculator.dispaly.value +='-'">
+                <input type="button" class="operator" value="-" onclick = "calculator.dispaly.value +='-'">
             </td>
             <td>
                 <input type="button" value="4" onclick = "calculator.dispaly.value +='4'">
@@ -72,9 +72,10 @@
             <td>
                 <input type="button" value="6" onclick = "calculator.dispaly.value +='6'">
             </td>
-            <!---->
+        </tr>
+        <tr>
             <td>
-                <input type="button" value="*" onclick = "calculator.dispaly.value +='*'">
+                <input type="button" class="operator" value="*" onclick="calculator.dispaly.value += '*'">
             </td>
             <td>
                 <input type="button" value="7" onclick = "calculator.dispaly.value +='7'">
