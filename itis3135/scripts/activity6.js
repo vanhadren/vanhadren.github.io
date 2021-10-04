@@ -8,7 +8,7 @@ while (i==0)
     {  
          if(!validateEntry(polyType))
         { 
-        var type = polyFinder(polyType);
+        var type = getShape(polyType);
         alert(type);       
         i=1;
         }
@@ -22,7 +22,7 @@ while (i==0)
         var sides = prompt("The Tyrannical Enormous Rottweiler company welcomes you, give us a number of sides to find out the polygons name.");
             return sides;
     }
-function polyFinder(sides) 
+function getShape(sides) 
 {
             x = Math.round(Math.abs(sides));
             switch (x) 
