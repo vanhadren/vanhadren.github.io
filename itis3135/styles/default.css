@@ -47,17 +47,11 @@ button{
 tbody tr:nth-child(odd) td{
     background-color: rgb(35, 19, 80);
     color: rgb(216, 144, 73);
-    margin-left: 40%;
-    margin-right: 40%;
-    height:max-content;
-}
+    
 }
 tbody tr:nth-child(even) td{
     background-color: rgb(216, 144, 73);
     color: rgb(35, 19, 80);
-    margin-left: 40%;
-    margin-right: 40%;
-    height:max-content;
 }
 table
 {
