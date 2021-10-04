@@ -42,13 +42,9 @@
         <tr>
             <td>
                 <input type="text" name="input" id = "display" disabled>
-
             </td>
         </tr>
-        <tr>   
-            <td>
-                <input type="button" class="operator" value="+" onclick = "calculator.dispaly.value +='+'">
-            </td>
+        <tr>              
             <td>
                 <input type="button" value="1" onclick = "calculator.dispaly.value +='1'">
             </td>
@@ -59,10 +55,7 @@
                 <input type="button" value="3" onclick = "calculator.dispaly.value +='3'">
             </td>
         </tr>
-        <tr>
-            <td>
-                <input type="button" class="operator" value="-" onclick = "calculator.dispaly.value +='-'">
-            </td>
+        <tr>            
             <td>
                 <input type="button" value="4" onclick = "calculator.dispaly.value +='4'">
             </td>
@@ -73,10 +66,7 @@
                 <input type="button" value="6" onclick = "calculator.dispaly.value +='6'">
             </td>
         </tr>
-        <tr>
-            <td>
-                <input type="button" class="operator" value="*" onclick="calculator.dispaly.value += '*'">
-            </td>
+        <tr>            
             <td>
                 <input type="button" value="7" onclick = "calculator.dispaly.value +='7'">
             </td>
@@ -85,6 +75,18 @@
             </td>
             <td>
                 <input type="button" value="9" onclick = "calculator.dispaly.value +='9'">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="operator" value="*" onclick="calculator.dispaly.value += '*'">
+            </td>
+            <td>
+                <input type="button" class="operator" value="-" onclick = "calculator.dispaly.value +='-'">
+            </td>
+            <td>
+                <input type="button" class="operator" value="+" onclick = "calculator.dispaly.value +='+'">
             </td>
             <td>
                 <input type="button" value='=' onclick="calculator.display.value = eval(calculator.display.value)">
