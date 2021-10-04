@@ -52,8 +52,15 @@ tbody tr:nth-child(even) td{
     background-color: rgb(216, 144, 73);
     color: rgb(35, 19, 80);
 }
+table
+{
+    width: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
+    height:max-content;
+}
 
-forms
+form
 {
     color:rgb(216, 144, 73);
 	font-size:18px;  
