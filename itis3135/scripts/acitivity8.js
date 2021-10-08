@@ -4,7 +4,8 @@ var people = [];
 var select = document.getElementById("peopleArr"); 
 var names = ["tom", "dick", "harry"]; 
 
-for(var i = 0; i < names.length; i++) {
+for(var i = 0; i < names.length; i++) 
+{
     var temp = names[i];
     var element = document.createElement("OPTION");
     element.textContent = temp;
