@@ -1,13 +1,14 @@
 var salaries = [];
 
 
-var people = document.getElementById("peopleArr"),
-    names = ["tom", "dick", "harry"];
+var people = document.getElementById("peopleArr");
+var names = ["tom", "dick", "harry"];
 
 for (var i=0; i<names.length; i++)
 {
-    var option = document.createElement("OPTION"),
-        txt = document.createTextNode(names[i]);
+    var option = document.createElement("OPTION");
+    var txt = document.createTextNode(names[i]);
+    
     option.appendChild(txt);
     people.insertBefore(option,people.lastChild);
 }
