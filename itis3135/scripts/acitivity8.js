@@ -70,7 +70,7 @@ function addSalary()
         salaries.push(salary);
         people.push(person);
         document.getElementById("salary").innerHTML = "";
-        document.getElementById("name").focus();
+        document.getElementById("peopleArr").focus();
     }
 
 
