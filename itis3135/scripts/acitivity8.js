@@ -9,7 +9,7 @@ for (var i=0; i < people.length; i++ )
     var optn = document.createElement("option");
     optn.innerHTML = people[i];
     optn.value - people[i];
-    dropdown.appendChild(optn);
+    dropdown.append(optn);
     //dropdown[dropdown.length] = new Option(people[i],people[i]);
 }
 
