@@ -1,6 +1,18 @@
 var salaries = [];
 var people = [];
 
+var select = document.getElementById("peopleArr"); 
+var names = ["tom", "dick", "harry"]; 
+
+for(var i = 0; i < names.length; i++) {
+    var opt = names[i];
+    var el = document.createElement("OPTION");
+    el.textContent = opt;
+    el.value = opt;
+    select.appendChild(el);
+
+}
+/*
 var select = document.getElementById("peopleArr");
 var names = ["tom", "dick", "harry"];
 
@@ -11,8 +23,9 @@ for (var i=0; i<names.length; i++)
     
     option.appendChild(txt);
     select.insertBefore(option,select.lastChild);
+}
 
-
+*/
 
 window.onload = function() 
 {
@@ -90,4 +103,4 @@ function addSalary()
 //or when the user clicks the add button
 
 //populate dropdown list with names from array
-}
+
