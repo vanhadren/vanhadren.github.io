@@ -1,7 +1,17 @@
 var salaries = [];
 var people = [];
 
+var select = document.getElementById("peopleArr");
+var names = ["tom", "dick", "harry"];
 
+for (var i=0; i<names.length; i++)
+{
+    var option = document.createElement("OPTION");
+    var txt = document.createTextNode(names[i]);
+    
+    option.appendChild(txt);
+    select.insertBefore(option,select.lastChild);
+}
 
 
 
