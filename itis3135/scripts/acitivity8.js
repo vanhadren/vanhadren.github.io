@@ -1,4 +1,4 @@
-const people = new Array["tom","dick","harry"];
+var people = new Array("tom","dick","harry");
 const salaries = [];
 
 window.onload = function() 
