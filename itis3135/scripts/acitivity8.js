@@ -5,11 +5,11 @@ var select = document.getElementById("peopleArr");
 var names = ["tom", "dick", "harry"]; 
 
 for(var i = 0; i < names.length; i++) {
-    var opt = names[i];
-    var el = document.createElement("OPTION");
-    el.textContent = opt;
-    el.value = opt;
-    select.appendChild(el);
+    var temp = names[i];
+    var element = document.createElement("OPTION");
+    element.textContent = temp;
+    element.value = temp;
+    select.appendChild(element);
 
 }
 /*
