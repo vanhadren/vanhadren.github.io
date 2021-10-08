@@ -1,5 +1,13 @@
-var people = new Array("tom","dick","harry");
 const salaries = [];
+
+var people = new Array("tom","dick","harry");
+var dropdown = document.getElementById("people");
+
+for (let i=0; i < people.length; ++i )
+{
+    dropdown[dropdown.length] = new Option(people[i],people[i]);
+}
+
 
 window.onload = function() 
 {
@@ -51,8 +59,8 @@ function displaySalary()
 
 function addSalary()
 {   
-    var person = people.getElementById("newPerson").value;
-    var salary = document.getElementById("newSalary").value;
+    var person = people.getElementById("people").value;
+    var salary = document.getElementById("salary").value;
     //add person and salaray to the array
     //data valadation must not be empty and value must be numeric
     if(salary =="" || salary == NaN)
@@ -77,9 +85,3 @@ function addSalary()
 
 //populate dropdown list with names from array
 
-var dropdown = document.getElementById("people");
-
-for (let i=0; i < people.length; ++i )
-{
-    dropdown[dropdown.length] = new Option(people[i],people[i]);
-}
