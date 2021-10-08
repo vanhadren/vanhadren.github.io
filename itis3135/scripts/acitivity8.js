@@ -51,7 +51,7 @@ function displaySalary()
             display +="<tr><td>" +salaries[i]+ "</td><td>"+ people[i] +"</td></tr>";
         }
         display += "</table>";
-        $("salaryTable").innerHTML = "<h2> SALARIES </h2>" + display;
+        document.getElementById("salaryTable").innerHTML = "<h2> SALARIES </h2>" + display;
 }
 
 function addSalary()
@@ -63,14 +63,14 @@ function addSalary()
     if(salary =="" || salary == NaN)
     {
         alert("check your input");
-        $("name").focus();
+        document.getElementById("name").focus();
     }
     else{
         salary = parseInt(salary);
         salaries.push(salary);
         people.push(person);
-        $("salary").innerHTML = "";
-        $("name").focus();
+        document.getElementById("salary").innerHTML = "";
+        document.getElementById("name").focus();
     }
 
 
