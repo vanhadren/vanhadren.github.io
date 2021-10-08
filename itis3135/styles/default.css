@@ -85,7 +85,7 @@ form
     text-align: right;
 }
 
-#button{
+.button{
 	background-color: dimgrey;
 	font-style: italic;
 	color: floralwhite;
