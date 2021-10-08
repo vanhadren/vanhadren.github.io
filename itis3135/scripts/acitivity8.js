@@ -1,22 +1,22 @@
 var salaries = [];
+
+
 var people = new Array("tom","dick","harry");
+var dropdown = document.getElementById("people");
 
-
+for (var i=0; i < people.length; i++ )
+{
+    dropdown[dropdown.length] = new Option(people[i],people[i]);
+}
 
 
 window.onload = function() 
 {
-    $("displayResults").onclick = displayResults;
-    $("displaySalary").onclick = displaySalary;
-    $("addSalary").onclick = addSalary;
+    $("DisplayResults").onclick = displayResults;
+    $("DisplaySalary").onclick = displaySalary;
+    $("AddSalary").onclick = addSalary;
     $("name").focus();
 
-var dropdown = document.getElementById("people");
-
-for (var i=0; i < people.length; ++i )
-{
-    dropdown[dropdown.length] = new Option(people[i],people[i]);
-}
 
 }
 
