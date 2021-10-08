@@ -10,7 +10,7 @@ for (var i=0; i < people.length; i++ )
     var ele = document.createElement("option");
     ele.textContent = optn;
     ele.value - optn;
-    select.appendChild(ele);
+    dropdown.appendChild(ele);
     //dropdown[dropdown.length] = new Option(people[i],people[i]);
 }
 
