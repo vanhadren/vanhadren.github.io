@@ -1,23 +1,15 @@
 var salaries = [];
 
 
-var people = new Array("tom","dick","harry");
-var dropdown = document.getElementById("people");
+var people = document.getElementById("peopleArr"),
+    names = ["tom", "dick", "harry"];
 
-for (var i=0; i < people.length; i++ )
+for (var i=0; i<people.length; i++)
 {
     var option = document.createElement("OPTION"),
-        txt = document.createTextNode(people[i]);
+        txt = document.createTextNode(names[i]);
     option.appendChild(txt);
     select.insertBefore(option,select.lastChild);
-
-    /*
-    var optn = document.createElement("option");
-    optn.innerHTML = people[i];
-    optn.value - people[i];
-    dropdown.append(optn);
-    //dropdown[dropdown.length] = new Option(people[i],people[i]);
-    */
 }
 
 
