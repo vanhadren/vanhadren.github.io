@@ -68,7 +68,7 @@ function addSalary()
     if(salary =="" || salary == NaN)
     {
         alert("check your input");
-       
+        $("name").focus();
     }
     else{
         salary = parseInt(salary);
@@ -83,7 +83,7 @@ function addSalary()
 
 //application move the cursor to the name field on start
 // and after name and salasry have beem added
-//or when the user clicks the add mbutton
+//or when the user clicks the add button
 
 //populate dropdown list with names from array
 
