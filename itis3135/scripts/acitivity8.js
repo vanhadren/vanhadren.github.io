@@ -79,7 +79,7 @@ function addSalary()
 
 var dropdown = document.getElementById("people");
 
-for (let i=0; i < people.length; i ++)
+for (let i=0; i < people.length; ++i )
 {
     dropdown[dropdown.length] = new Option(people[i],people[i]);
 }
