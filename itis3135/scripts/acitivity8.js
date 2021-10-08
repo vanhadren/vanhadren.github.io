@@ -56,7 +56,7 @@ function displaySalary()
 
 function addSalary()
 {   
-    var person = people.getElementById("people").value;
+    var person = people.getElementById("peopleArr").value;
     var salary = document.getElementById("salary").value;
     //add person and salaray to the array
     //data valadation must not be empty and value must be numeric
