@@ -9,7 +9,7 @@ for (var i=0; i<names.length; i++)
     var option = document.createElement("OPTION"),
         txt = document.createTextNode(names[i]);
     option.appendChild(txt);
-    peopleArr.insertBefore(option,peopleArr.lastChild);
+    people.insertBefore(option,people.lastChild);
 }
 
 
