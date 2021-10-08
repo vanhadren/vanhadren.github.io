@@ -11,7 +11,6 @@ for (var i=0; i<names.length; i++)
     
     option.appendChild(txt);
     select.insertBefore(option,select.lastChild);
-}
 
 
 
@@ -91,4 +90,4 @@ function addSalary()
 //or when the user clicks the add button
 
 //populate dropdown list with names from array
-
+}
