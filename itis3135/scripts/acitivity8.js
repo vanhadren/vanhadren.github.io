@@ -37,7 +37,7 @@ function displayResults ()
             largest = salaries[j];
         }
     }
-    $("results").innerHTML = "<h2> RESULTS <h2>" + "<p> Largest Salary = " + largest+ "</p>"+"<p> Average Salary = " + average;
+document.getElementById("results").innerHTML = "<h2> RESULTS <h2>" + "<p> Largest Salary = " + largest+ "</p>"+"<p> Average Salary = " + average;
 }
 
 function displaySalary()
