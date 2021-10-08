@@ -7,10 +7,10 @@ var people = [];
 
 window.onload = function() 
 {
-    $("DisplayResults").onclick = displayResults;
-    $("DisplaySalary").onclick = displaySalary;
-    $("AddSalary").onclick = addSalary;
-    $("name").focus();
+    document.getElementById("DisplayResults").onclick = displayResults;
+    document.getElementById("DisplaySalary").onclick = displaySalary;
+    document.getElementById("AddSalary").onclick = addSalary;
+    document.getElementById("name").focus();
 
 
 }
