@@ -4,7 +4,7 @@ var salaries = [];
 var people = document.getElementById("peopleArr"),
     names = ["tom", "dick", "harry"];
 
-for (var i=0; i<people.length; i++)
+for (var i=0; i<names.length; i++)
 {
     var option = document.createElement("OPTION"),
         txt = document.createTextNode(names[i]);
