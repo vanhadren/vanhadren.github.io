@@ -10,7 +10,7 @@ window.onload = function()
     document.getElementById("DisplayResults").onclick = displayResults;
     document.getElementById("DisplaySalary").onclick = displaySalary;
     document.getElementById("AddSalary").onclick = addSalary;
-    document.getElementById("name").focus;
+    document.getElementById("peopleArr").focus();
 
 
 }
