@@ -6,7 +6,12 @@ var dropdown = document.getElementById("people");
 
 for (var i=0; i < people.length; i++ )
 {
-    dropdown[dropdown.length] = new Option(people[i],people[i]);
+    var optn = people[i];
+    var ele = document.createElement("option");
+    ele.textContent = optn;
+    ele.value - optn;
+    select.appendChild(ele);
+    //dropdown[dropdown.length] = new Option(people[i],people[i]);
 }
 
 
