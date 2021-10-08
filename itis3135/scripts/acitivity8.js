@@ -51,12 +51,12 @@ function displaySalary()
     //display them as rows in the HTML table element with id="results_table" 
     var display= ""
     display += "<tr><th> Salary </th> <th> People </th></tr>"
-        for(let i=0; i <people.length; i ++)
+        for(let i=0; i<people.length; i++)
         {
-            display +="<tr><td?" +salaries[i]+ "</td><td>"+ people[i] +"</td></tr";
+            display +="<tr><td>" +salaries[i]+ "</td><td>"+ people[i] +"</td></tr>";
         }
         display += "</table>";
-        $("salaryTable").innerHTML = "<h2> SALARIES </h2>" + html;
+        $("salaryTable").innerHTML = "<h2> SALARIES </h2>" + display;
 }
 
 function addSalary()
