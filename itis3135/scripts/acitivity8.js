@@ -2,7 +2,7 @@ var salaries = [];
 var people = [];
 
 var select = document.getElementById("peopleArr"); 
-var names = ["tom", "dick", "harry"]; 
+var names = ["John Wick","Jason Bourne","John McClane","Chuck Norris","Jack Reacher","Anakin Skywalker"]; 
 
 for(var i = 0; i < names.length; i++) 
 {
