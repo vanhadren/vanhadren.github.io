@@ -7,6 +7,7 @@ window.onload = function ()
     document.getElementById("DisplaySalary").onclick = displaySalary;
     document.getElementById("AddSalary").onclick = addSalary;
     document.getElementById("peopleArr").focus();
+    populateDropDown();
 }
 
 function populateDropDown ()
