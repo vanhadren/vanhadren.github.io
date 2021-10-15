@@ -25,6 +25,7 @@ h1 {
 body {
   font-size: 16px;
   text-align: center;
+  color:#706b6b6b; 
 }
 
 /* table format*/
@@ -33,7 +34,7 @@ th {
   border: 1px solid black;
 
   padding: 8px;
-  background-color:#262626;
+  background-color:#69666696;
   color:powderblue;
   text-align: left;
   
