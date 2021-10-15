@@ -18,7 +18,7 @@ h1,h2{
 
 
 }
-h3:hover {
+h3 {
   color:powderblue;
 
 }
@@ -61,6 +61,7 @@ form {
   margin-right: auto;
   display: inline-block;
   color:black;
+  background-color: darkseagreen;
 }
 
 
