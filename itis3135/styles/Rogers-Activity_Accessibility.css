@@ -56,7 +56,7 @@ table.center {
 }
 
 /* form */
-form.hover {
+form {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
@@ -91,8 +91,6 @@ abbr {
   color: rgb(59, 218, 86);
   text-decoration: none;
   cursor: pointer;
-  background-color: darkseagreen;
-
 }
 img{
   width: 100%;
