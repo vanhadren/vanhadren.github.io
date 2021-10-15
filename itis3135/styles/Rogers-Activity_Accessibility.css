@@ -93,6 +93,8 @@ abbr {
 }
 img{
   width: 100%;
-  max-width: 500px;
+  max-height: 400px;
+  max-width: 300px;
+ 
 }
 
