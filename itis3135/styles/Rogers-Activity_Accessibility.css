@@ -9,7 +9,7 @@ html {
 }
 
 /* top heading */
-header,
+
 h2 {
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -64,12 +64,11 @@ form {
 
 
 /* footer bottom of page*/
-footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding-right: 70px;
- 
+header,footer {
+  
+  text-align: center;
+  color:rgb(216, 144, 73);
+  font-weight:initial;
 }
 
 abbr {
@@ -88,7 +87,7 @@ abbr {
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: rgb(59, 218, 86);
   text-decoration: none;
   cursor: pointer;
 }
