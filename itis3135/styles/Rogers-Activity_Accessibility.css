@@ -61,7 +61,7 @@ form {
   margin-right: auto;
   display: inline-block;
   color:powderblue;
-  background-color: #262626;
+  background-color: rgb(44, 44, 44,.5);
   opacity: 25%;
 }
 
