@@ -2,7 +2,7 @@
 html {
   width: auto;
   height: auto;
-  background-image: url('images/Candle-Background.jpg');
+  background: url('images/Candle-Background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
