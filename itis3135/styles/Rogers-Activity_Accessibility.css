@@ -38,10 +38,7 @@ th {
   background-color:#262626;
   color:powderblue;
   text-align: left;
-  max-height: 250px;
-  max-width: 350px;
-  width:auto;
- 
+  
   
 }
 
@@ -98,8 +95,11 @@ abbr {
   text-decoration: none;
   cursor: pointer;
 }
-#image{
-  
+img
+{
+  max-height: 250px;
+  max-width: 350px;
+  width:auto;
 }
 .background{
   min-width: 100%;
