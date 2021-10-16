@@ -59,7 +59,7 @@ table.center {
 
 /* form */
 form {
-  
+
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
@@ -100,7 +100,7 @@ img
 {
   max-height: 250px;
   max-width: 350px;
-  width:auto;
+  width:100%;
 }
 .background{
   min-width: 100%;
