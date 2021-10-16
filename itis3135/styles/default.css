@@ -89,6 +89,10 @@ form
 	color: floralwhite;
     width: 150px;
 }
+img{
+    padding-left: 20px;
+    padding-right : 20px;
+}
 
 /* SCSS HEX 
 $rich-black-fogra-29: #001219ff;
