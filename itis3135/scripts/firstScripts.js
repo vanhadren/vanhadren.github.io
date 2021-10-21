@@ -8,17 +8,16 @@ window.onload= function()
             timeNdate();
           document.getElementById("sumButton").onclick = sumOfThree;
           document.getElementById("difButton").onclick = diffOfThree;
-          
-      }
-
-      function getName(name)
-      {
-          return name;
+          document.getElementById("areaOfRec").onclick = AreaOfRectangle;
+          document.getElementById("concatStrings").onclick = concatStrings;
+          document.getElementById("calcSalesTax").onclick = calcSalesTax;
       }
       function setName(name)
       {
           this.name = name;
       }
+     
+     
       function setFeeling(feeling)
       {
           this.feeling  = feeling;
@@ -46,7 +45,7 @@ window.onload= function()
       {
           var today = new Date();
           document.getElementById("timeNdate").innerHTML ="Today is " + today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear() + "<br>" + "The time is: " + today.getHours() + ":" + today.getMinutes() + "<br>"
-          document.getElementById("welcome").innerHTML = companyName + " welcomes you, " + getName() + "!" + "<br>"
+          document.getElementById("welcome").innerHTML = companyName + " welcomes you, " + name + "!" + "<br>"
           document.getElementById("feeling").innerHTML ="We're glad you are doing " + feeling + "!";
       }
           
@@ -77,4 +76,4 @@ window.onload= function()
           let sum = (2 * num1) + ((2 * num2));
           alert("the area of the rectangle is: " + sum);
       }
-          
+    
