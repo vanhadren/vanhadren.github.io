@@ -1,31 +1,9 @@
   
 /*
-        document.write("Today is " + today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear() + "<br>" + "The time is: " + today.getHours() + ":" + today.getMinutes() + "<br>");
-        document.write(companyName + " welcomes you, " + name + "!" + "<br>");
-        document.write("We're glad you are doing " + feeling + "!");
+       
 
         
-        sumBTN.innerHTML = "sum of three numbers";
-        function sumOFThree ()
-        {
-            
-        }
-        document.body.appendChild(sumBTN);
-    
-    
-  
-        let difBTN = document.createElement("button");
-        difBTN.innerHTML = "difference of three numbers";
-        difBTN.onclick = function () 
-        {
-            alert(" the find the difference of 3 numbers application");
-            let num1 = parseInt(prompt("enter the first number"));
-            let num2 = parseInt(prompt("enter the second number"));
-            let num3 = parseInt(prompt("enter the third number"));
-            let sum = num1 - num2 - num3;
-            alert("the sum of the three numbers you entered are: " + sum);
-         }
-        document.body.appendChild(difBTN);
+       
       
     
         let strBTN = document.createElement("button");
@@ -65,8 +43,9 @@
 */
         window.onload= function()
         {
+            timeNdate();
             document.getElementById("sumButton").onclick=sumOfThree();
-
+            document.getElementById("difButton").onclick=difOfThree();
         }
 
         function sumOfThree()
@@ -77,4 +56,19 @@
             let num3 = parseInt(prompt("enter the third number"));
             let sum = num1 + num2 + num3;
             alert("the sum of the three numbers you entered are: " + sum);
+        }
+        function diffOfThree()
+        {
+            alert(" the find the difference of 3 numbers application");
+            let num1 = parseInt(prompt("enter the first number"));
+            let num2 = parseInt(prompt("enter the second number"));
+            let num3 = parseInt(prompt("enter the third number"));
+            let sum = num1 - num2 - num3;
+            alert("the sum of the three numbers you entered are: " + sum);
+        }
+        function timeNdate()
+        {
+            document.write("Today is " + today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear() + "<br>" + "The time is: " + today.getHours() + ":" + today.getMinutes() + "<br>");
+            document.write(companyName + " welcomes you, " + name + "!" + "<br>");
+            document.write("We're glad you are doing " + feeling + "!");
         }
