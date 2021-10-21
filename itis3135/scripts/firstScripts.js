@@ -43,7 +43,7 @@
 */
         window.onload= function()
         {
-            timeNdate();
+          //  timeNdate();
             document.getElementById("sumButton").onclick=sumOfThree();
             document.getElementById("difButton").onclick=difOfThree();
         }
