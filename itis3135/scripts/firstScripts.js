@@ -1,51 +1,26 @@
-  
-/*
-       
-
-        
-       
-      
-    
-        let strBTN = document.createElement("button");
-        strBTN.innerHTML = "Concat Strings";
-        strBTN.onclick = function () {
-            alert(" concat 2 strings");
-            var num1 = prompt("enter the first string");
-            var num2 = prompt("enter the second string");
-            let sum = num1 + " " + num2;
-            alert("the concatanated string is: " + sum);
-        }
-        document.body.appendChild(strBTN);
-
-    
-        let taxBTN = document.createElement("button");
-        taxBTN.innerHTML = "calculate sales tax";
-        taxBTN.onclick = function () {
-            alert(" find sales tax");
-            let subtotal = parseInt(prompt("enter the subtotal"));
-            const salestax = .07;
-            let tax_amount = subtotal * salestax;
-            let total = subtotal + tax_amount;
-            alert("the total amount is: " + total);
-        };
-        document.body.appendChild(taxBTN);
-    
-        let areaBTN = document.createElement("button");
-        areaBTN.innerHTML = "area of any rectangle";
-        areaBTN.onclick = function () {
-            alert(" find the area of any rectangle application");
-            let num1 = parseInt(prompt("enter the width"));
-            let num2 = parseInt(prompt("enter the length"));
-            let sum = (2 * num1) + ((2 * num2));
-            alert("the area of the rectangle is: " + sum);
-        };
-        document.body.appendChild(areaBTN);
-*/
-        window.onload= function()
+  var companyName = 'Tryanical Rotts';
+  var name;
+  var feeling;
+  window.onload= function()
         {
+            setName(prompt("what is your name? "))
+            setFeeling(prompt("how do you feel today? "))
           //  timeNdate();
             document.getElementById("sumButton").onclick=sumOfThree();
             document.getElementById("difButton").onclick=difOfThree();
+        }
+  
+        function getName(name)
+        {
+            return name;
+        }
+        function setName(name)
+        {
+            this.name = name;
+        }
+        function setFeeling(feeling)
+        {
+            this.feeling  = feeling;
         }
 
         function sumOfThree()
@@ -68,7 +43,37 @@
         }
         function timeNdate()
         {
+            var today = new Date();
             document.write("Today is " + today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear() + "<br>" + "The time is: " + today.getHours() + ":" + today.getMinutes() + "<br>");
-            document.write(companyName + " welcomes you, " + name + "!" + "<br>");
+            document.write(companyName + " welcomes you, " + getName() + "!" + "<br>");
             document.write("We're glad you are doing " + feeling + "!");
         }
+            
+        function concatStrings()
+        {
+            alert(" concat 2 strings");
+            var num1 = prompt("enter the first string");
+            var num2 = prompt("enter the second string");
+            let sum = num1 + " " + num2;
+            alert("the concatanated string is: " + sum);
+        }
+
+        function calcSalesTax()
+        {
+            alert(" find sales tax");
+            let subtotal = parseInt(prompt("enter the subtotal"));
+            const salestax = .07;
+            let tax_amount = subtotal * salestax;
+            let total = subtotal + tax_amount;
+            alert("the total amount is: " + total);
+        }
+            
+        function AreaOfRectangle()
+        {
+            alert(" find the area of any rectangle application");
+            let num1 = parseInt(prompt("enter the width"));
+            let num2 = parseInt(prompt("enter the length"));
+            let sum = (2 * num1) + ((2 * num2));
+            alert("the area of the rectangle is: " + sum);
+        }
+            
