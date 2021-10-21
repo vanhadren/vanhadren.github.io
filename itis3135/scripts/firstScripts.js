@@ -1,21 +1,14 @@
-
-    
-window.onload= function()
-{
+  
+/*
         document.write("Today is " + today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear() + "<br>" + "The time is: " + today.getHours() + ":" + today.getMinutes() + "<br>");
         document.write(companyName + " welcomes you, " + name + "!" + "<br>");
         document.write("We're glad you are doing " + feeling + "!");
 
-        let sumBTN = document.createElement("button");
+        
         sumBTN.innerHTML = "sum of three numbers";
-        sumBTN.onclick = function () 
+        function sumOFThree ()
         {
-            alert(" the find the sum of 3 numbers application");
-            let num1 = parseInt(prompt("enter the first number"));
-            let num2 = parseInt(prompt("enter the second number"));
-            let num3 = parseInt(prompt("enter the third number"));
-            let sum = num1 + num2 + num3;
-            alert("the sum of the three numbers you entered are: " + sum);
+            
         }
         document.body.appendChild(sumBTN);
     
@@ -69,7 +62,19 @@ window.onload= function()
             alert("the area of the rectangle is: " + sum);
         };
         document.body.appendChild(areaBTN);
+*/
+        window.onload= function()
+        {
+            document.getElementById("sumButton").onclick=sumOfThree();
 
-    
+        }
 
-}
+        function sumOfThree()
+        {
+            alert(" the find the sum of 3 numbers application");
+            let num1 = parseInt(prompt("enter the first number"));
+            let num2 = parseInt(prompt("enter the second number"));
+            let num3 = parseInt(prompt("enter the third number"));
+            let sum = num1 + num2 + num3;
+            alert("the sum of the three numbers you entered are: " + sum);
+        }
