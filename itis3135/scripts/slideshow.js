@@ -3,7 +3,9 @@ $(document).ready(function()
     $(".slide:first").show();
         setInterval(function()
             {Next($('.slide:visible'))}, 4000);
-});
+$(".slide:first").hide();
+}
+
 function Next(slide)
 {
     slide.fadeOut();
