@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-    $(".slide:first").fadeIn();
+    $(".slide:first").fadeOut();
         setInterval(function()
             {Next($('.slide:visible'))}, 4000);
 });
@@ -9,10 +9,10 @@ function Next(slide)
     slide.fadeIn();
         if(typeof slide.next().attr('src') !== "undefinded")
             {
-                slide.next().fadeIn();
+                slide.next().fadeOut();
             }
         else
             {
-                $('.slide:first').fadeIn();
+                $('.slide:first').fadeOut();
             }
 }
