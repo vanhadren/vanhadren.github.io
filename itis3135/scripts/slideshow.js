@@ -1,18 +1,18 @@
 $(document).ready(function()
 {
-    $(".slide:first").fadeOut();
+    $(".slide:first").hide();
         setInterval(function()
             {Next($('.slide:visible'))}, 4000);
 });
 function Next(slide)
 {
-    slide.fadeIn();
+    slide.fadeOut();
         if(typeof slide.next().attr('src') !== "undefinded")
             {
-                slide.next().fadeOut();
+                slide.next().fadeIn();
             }
         else
             {
-                $('.slide:first').fadeOut();
+                $('.slide:first').fadeIn();
             }
 }
