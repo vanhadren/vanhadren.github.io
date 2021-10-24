@@ -1,11 +1,14 @@
-$(document).ready(function()
+window.onload = function()
+{
+function firstSlide(slide)
 {
     $(".slide:first").show();
-        setInterval(function()
+        setInterval(
+            function()
             {
                 Next($('.slide:visible'))
             }, 4000);
-});
+}
 function Next(slide)
 {
     slide.fadeOut();
@@ -17,4 +20,5 @@ function Next(slide)
             {
                 $('.slide:first').fadeIn();
             }
+}
 }
