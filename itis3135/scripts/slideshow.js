@@ -1,3 +1,4 @@
+var slide = document.getElementsByClassName("slide");
 $(document).ready(function()
 {
     $(".slide:first").show();
