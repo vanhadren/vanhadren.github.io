@@ -4,7 +4,7 @@ $(document).ready(function()
         setInterval(function()
             {Next($('.slide:visible'))}, 4000);
 $(".slide:first").hide();
-}
+});
 
 function Next(slide)
 {
