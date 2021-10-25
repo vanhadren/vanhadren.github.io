@@ -9,6 +9,7 @@ window.onload =function()
     img.setAttribute("src", images[i]);
     img.setAttribute("height",200);
     img.setAttribute("width",200);
+    img.id = 'img'+[i];
     $(img).appendTo('#slideShow');
     $(img).hide();
     
@@ -20,22 +21,20 @@ window.onload =function()
 {
    setInterval(function()
             {
-
-                    for(let i = 0; i <images.length; i++)
-                    {
-                        if(i>0)
+                    var temp = 0;
+                    var tempID = 'img'+ temp;
+                    var tempIMG = document.getElementById(tempID);
+                        if(temp>0)
                         {
-                        $('#slideShow').find(images[i-1]).hide();
-                        }
-                        
-                        
-                        $('#slideShow').find(images[i]).show();
-                        
+                            $(tempIMG).prev().hide();
+                        }                                                
+                        $(tempIMG).show();
+                        temp++;
                         if(i>=images.length)
                         {
                             i=0;
-                        }
-                    }
+                        }                        
+                    
             },4000);
 });
 /*
