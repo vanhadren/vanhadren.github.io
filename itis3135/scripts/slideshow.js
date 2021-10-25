@@ -7,7 +7,11 @@ window.onload =function()
    {
     var img = document.createElement('img');
     img.setAttribute("src", images[i]);
+    img.setAttribute("height",200);
+    img.setAttribute("width",200);
     $(img).appendTo('#slideShow');
+    $(img).hide();
+    
    }
 
  }
