@@ -1,4 +1,4 @@
-var images = ["images/coolcat.jpg","images/cooldog.jpg","images/coolwolf","images/cooltiger","cooldragon","images/coolspace"];
+var images = ["images/coolcat.jpg","images/cooldog.jpg","images/coolwolf.jpg","images/cooltiger.jpg","images/cooldragon.jpg","images/coolspace.jpg"];
 var alts = ["cat","dog","wolf","tiger","dragon","space"]
 
 window.onload =function()
