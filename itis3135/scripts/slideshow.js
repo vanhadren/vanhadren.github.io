@@ -32,7 +32,8 @@ window.onload =function()
                         $(tempIMG).show();
                         temp++;
                         if(temp>images.length)
-                        {
+                        {                            
+                            $(tempIMG).hide();
                             temp=0;
                         }                        
                     
