@@ -19,11 +19,11 @@ window.onload =function preload(images)
                     {
                         if(i>0)
                         {
-                        $('#slideShow').find([i-1]).hide();
+                        $('#slideShow').find(images[i-1]).hide();
                         }
                         
                         
-                        $('#slideShow').find([i]).show();
+                        $('#slideShow').find(images[i]).show();
                         
                         if(i>=images.length)
                         {
