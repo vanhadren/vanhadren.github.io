@@ -5,7 +5,7 @@ window.onload =function preload(images)
  {
    for(var i=0; i<images.length; i ++)
    {
-        $('#slideShow').append("img").attr("src",[i]);
+        $('#slideShow').append("img").attr("src",images[i]);
    }
 
  }
