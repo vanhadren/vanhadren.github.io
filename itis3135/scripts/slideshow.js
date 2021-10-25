@@ -22,7 +22,7 @@ window.onload =function()
     var temp = 0;
    setInterval(function()
             {
-                    
+                    var divID = document.getElementById('slideShow');
                     var tempID = 'img'+ temp;
                     var tempIMG = document.getElementById(tempID);
                         if(temp>0)
@@ -33,7 +33,7 @@ window.onload =function()
                         temp++;
                         if(temp>images.length)
                         {                            
-                            $(tempIMG).hide();
+                            $(divID.lastElementChild).hide();
                             temp=0;
                         }                        
                     
