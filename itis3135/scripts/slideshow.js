@@ -1,3 +1,16 @@
+var images = ["images/coolcat.jpg","images/cooldog.jpg","images/coolwolf","images/cooltiger","cooldragon","images/coolspace"];
+var alts = ["cat","dog","wolf","tiger","dragon","space"]
+
+windows.onload =function preload(images)
+ {
+    $(images).each(function () 
+    {
+        $('<img />').attr('src',this).appendTo('#slideShow').hide()
+    });
+ }
+
+
+
 $(document).ready(function()
 {
     $(".slide:first").show();
