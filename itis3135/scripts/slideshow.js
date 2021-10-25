@@ -8,21 +8,23 @@ window.onload =function preload(images)
         $('<img />').attr('src',this).appendTo('#slideShow').hide()
     });
  }
-for(let i = 0; i <images.length; i++)
+
+ $(document).ready(function()
 {
-    $('#slideshow').find([i]).show();
-}
+    for(let i = 0; i <images.length; i++)
+    {
+        $('#slideshow').find([i]).show();
+    }
 
-
+});
 /*
 
-$(document).ready(function()
-{
+
     $(".slide:first").show();
         setInterval(function()
             {Next($('.slide:visible'))}, 4000);
 $(".slide:first").hide();
-});
+
 
 function Next(slide)
 {
