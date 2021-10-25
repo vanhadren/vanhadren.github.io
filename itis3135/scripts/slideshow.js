@@ -30,9 +30,9 @@ window.onload =function()
                         }                                                
                         $(tempIMG).show();
                         temp++;
-                        if(i>=images.length)
+                        if(temp>=images.length)
                         {
-                            i=0;
+                            temp=0;
                         }                        
                     
             },4000);
