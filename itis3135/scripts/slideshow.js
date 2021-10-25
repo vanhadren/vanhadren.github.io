@@ -11,19 +11,31 @@ window.onload =function preload(images)
 
  $(document).ready(function()
 {
-    for(let i = 0; i <images.length; i++)
-    {
-        $('#slideshow').find([i]).show();
-    }
+    setInterval(function()
+            {
 
+                    for(let i = 0; i <images.length; i++)
+                    {
+                        if(i>0)
+                        {
+                        $('#slideShow').find[i-1].hide();
+                        }
+                        
+                        
+                        $('#slideShow').find([i]).show();
+                        
+                        if(i>=images.length)
+                        {
+                            i=0;
+                        }
+                    }
+            },4000);
 });
 /*
 
 
     $(".slide:first").show();
-        setInterval(function()
-            {Next($('.slide:visible'))}, 4000);
-$(".slide:first").hide();
+        
 
 
 function Next(slide)
