@@ -18,7 +18,7 @@ window.onload =function preload(images)
                     {
                         if(i>0)
                         {
-                        $('#slideShow').find[i-1].hide();
+                        $('#slideShow').find([i-1]).hide();
                         }
                         
                         
