@@ -18,7 +18,7 @@ window.onload =function()
 
  $(document).ready(function()
 {
-   var slideShowPlayer = setInterval(function()
+   setInterval(function()
             {
 
                     for(let i = 0; i <images.length; i++)
