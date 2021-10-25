@@ -3,10 +3,11 @@ var alts = ["cat","dog","wolf","tiger","dragon","space"]
 
 window.onload =function preload(images)
  {
-    $(images).each(function () 
-    {
-        $('<img />').attr('src',this).appendTo('#slideShow').hide()
-    });
+   for(var i=0; i<images.length; i ++)
+   {
+        $('#slideShow').append("img").attr("src",[i]);
+   }
+
  }
 
  $(document).ready(function()
