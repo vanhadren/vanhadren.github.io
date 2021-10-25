@@ -19,9 +19,10 @@ window.onload =function()
 
  $(document).ready(function()
 {
+    var temp = 0;
    setInterval(function()
             {
-                    var temp = 0;
+                    
                     var tempID = 'img'+ temp;
                     var tempIMG = document.getElementById(tempID);
                         if(temp>0)
