@@ -1,8 +1,8 @@
 var images = ["images/coolcat.jpg","images/cooldog.jpg","images/coolwolf","images/cooltiger","cooldragon","images/coolspace"];
 var alts = ["cat","dog","wolf","tiger","dragon","space"]
 
-window.onload =function preload(images)
- {
+window.onload =function()
+{
    for(var i=0; i<images.length; i ++)
    {
         $('#slideShow').append("img").attr("src",images[i]);
