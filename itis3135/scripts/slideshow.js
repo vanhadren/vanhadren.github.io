@@ -7,8 +7,8 @@ window.onload =function()
    {
     var img = document.createElement('img');
     img.setAttribute("src", images[i]);
-    img.setAttribute("height",200);
-    img.setAttribute("width",200);
+    img.setAttribute("height",600);
+    img.setAttribute("width",900);
     img.id = 'img'+[i];
     $(img).appendTo('#slideShow');
     $(img).hide();
@@ -30,7 +30,7 @@ window.onload =function()
                         }                                                
                         $(tempIMG).show();
                         temp++;
-                        if(temp>=images.length)
+                        if(temp>images.length)
                         {
                             temp=0;
                         }                        
