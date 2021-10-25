@@ -8,8 +8,13 @@ window.onload =function preload(images)
         $('<img />').attr('src',this).appendTo('#slideShow').hide()
     });
  }
+for(let i = 0; i <images.length; i++)
+{
+    $('#slideshow').find([i]).show();
+}
 
 
+/*
 
 $(document).ready(function()
 {
@@ -31,3 +36,4 @@ function Next(slide)
                 $('.slide:first').fadeIn();
             }
 }
+*/
