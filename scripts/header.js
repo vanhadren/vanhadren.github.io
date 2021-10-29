@@ -3,6 +3,6 @@ $(document).ready
     function()
     {
 
-        $("#header").load("header.html");
+        $("#header").load("components/header.html");
     }
 );
