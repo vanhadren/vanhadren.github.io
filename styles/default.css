@@ -1,0 +1,105 @@
+/* Coolors Exported Palette - https://coolors.co/001219-005f73-ca6702-9b2226 */
+
+body{
+    font-family: Georgia;
+    color:rgb(216, 144, 73);
+    background-color:dimgrey;
+    }
+    main{
+        width:800px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+header,footer{
+    text-align: center;
+    color:rgb(216, 144, 73);
+    font-weight:initial;
+   
+}
+h1,h2,h3{
+    color:rgb(216, 144, 73);
+    font-family: 'Gerogia';
+    text-align: center;
+}
+figure{
+    text-align:center;
+}
+nav{
+    text-align: center;
+    color:rgb(216, 144, 73);
+
+}
+a:link, a:visited{
+    color : purple;
+    text-decoration: none;
+
+}
+a:hover{
+    color: white;
+}
+
+button{
+   width:10%;
+   margin-left: 45%;
+   margin-right: 45%;
+   height: 30px;
+}
+tbody tr:nth-child(odd) td{
+    background-color: rgb(35, 19, 80);
+    color: rgb(216, 144, 73);
+    height: 30px;
+    
+}
+tbody tr:nth-child(even) td{
+    background-color: rgb(216, 144, 73);
+    color: rgb(35, 19, 80);
+}
+table
+{
+    width: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
+    height:max-content;
+}
+
+
+form
+{
+    color:rgb(216, 144, 73);
+	font-size:18px;  
+	font-style: italic;
+	background-color:dimgrey;
+	align-items: center;
+	background-color:darkslategray;
+}	
+
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.right{
+    text-align: right;
+}
+
+.button{
+	background-color: rgb(35, 19, 80);
+	font-style: italic;
+	color: floralwhite;
+    width: 150px;
+}
+img{
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+/* SCSS HEX 
+$rich-black-fogra-29: #001219ff;
+$blue-sapphire: #005f73ff;
+$alloy-orange: #ca6702ff;
+$ruby-red: #9b2226ff;
+*/
