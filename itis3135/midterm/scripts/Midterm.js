@@ -21,6 +21,7 @@ function updateCalorie(calories, numCalories)
 {
     calories[dayOfWeek] = numCalories
     alert("Your updated calories details are: "+calories);
+    $("calorie").innerHTML = calories;
 
 }
 
