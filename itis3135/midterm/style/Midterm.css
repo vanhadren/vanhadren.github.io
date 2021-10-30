@@ -30,10 +30,11 @@ input{
 
 /*add styles*/
 .button{
-	background-color: rgb(35, 19, 80);
+	background-color: red;
 	font-style: italic;
 	color: floralwhite;
     width: 150px;
     height: 50px;
-    font-size: medium;
+    font-size: medium
+    ;
 }
