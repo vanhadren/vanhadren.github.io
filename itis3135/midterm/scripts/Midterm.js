@@ -13,7 +13,7 @@ var $ = function(id) { return document.getElementById(id); };
 
 
 
-var numCalories = $("calories");
+var numCalories = $("calories").value;
 var calIndex = document.getElementsByName("dayOfWeek:checked").value;
 var dayOfWeek = document.getElementsByName("dayOfWeek:checked").value;
 
