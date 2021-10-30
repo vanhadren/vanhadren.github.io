@@ -12,7 +12,7 @@ var $ = function(id) { return document.getElementById(id); };
 window.onload = function() {
     //event handlers
 
-};
+
 var numCalories = $("calories");
 var calIndex = document.getElementsByName("dayOfWeek:checked").value;
 var dayOfWeek = document.getElementsByName("dayOfWeek:checked").value;
@@ -23,3 +23,5 @@ function updateCalorie(calories, numCalories)
     alert("Your updated calories details are: "+calories);
 
 }
+
+};
