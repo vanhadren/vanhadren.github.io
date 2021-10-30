@@ -13,14 +13,10 @@ main {
     padding: 1em 2em;
 }
 label {
-    float: left;
+    float:left;
     width: 10em;
     margin-right: 1em;
-    bottom:0;
-    left: 0;
    
-    
-
 }
 
 input{
