@@ -17,12 +17,12 @@ var numCalories = $("calories");
 var calIndex = document.getElementsByName("dayOfWeek:checked").value;
 var dayOfWeek = document.getElementsByName("dayOfWeek:checked").value;
 
-function updateCalorie(calories, numCalories)
+};
+
+function updateCalorie()
 {
     calories[dayOfWeek] = numCalories
     alert("Your updated calories details are: "+calories);
     $("calorie").innerHTML = calories;
 
 }
-
-};
