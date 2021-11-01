@@ -3,7 +3,7 @@ $(document).ready
     function()
     {
 
-        $("#header").load("components/header.html");
+        $("#header").load("header.html");
     }
 );
 $(document).ready
@@ -11,6 +11,6 @@ $(document).ready
     function()
     {
 
-        $("#footer").load("components/footer.html");
+        $("#footer").load("footer.html");
     }
 );
