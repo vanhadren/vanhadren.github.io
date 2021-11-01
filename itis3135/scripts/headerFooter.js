@@ -1,4 +1,4 @@
-windows.onload()
+window.onload()
 {
     var $ = function(id) { return document.getElementById(id); };
 
