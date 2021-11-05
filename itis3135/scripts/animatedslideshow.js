@@ -16,7 +16,7 @@
                 {
                     $("#image").attr("src",imageURL);
                     $("#caption").text(caption);
-                    $("#caption,#image").slideDown(2000);
+                    $("#caption, #image").slideDown(2000);
 
                 });
                 evt.preventDefault();
