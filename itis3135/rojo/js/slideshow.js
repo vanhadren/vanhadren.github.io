@@ -1,5 +1,4 @@
-var images = ["images/coolcat.jpg","images/cooldog.jpg","images/coolwolf.jpg","images/cooltiger.jpg","images/cooldragon.jpg","images/coolspace.jpg"];
-var alts = ["cat","dog","wolf","tiger","dragon","space"]
+var images = ["images/blender.jpg","images/drinkCooler.jpg","images/steakAzteka.jpg","images/Texmex.jpg"];
 
 window.onload =function()
 {
@@ -7,8 +6,8 @@ window.onload =function()
    {
     var img = document.createElement('img');
     img.setAttribute("src", images[i]);
-    img.setAttribute("height",600);
-    img.setAttribute("width",900);
+    img.setAttribute("height",300);
+    img.setAttribute("width",600);
     img.id = 'img'+[i];
     $(img).appendTo('#slideShow');
     $(img).hide();
@@ -37,7 +36,7 @@ window.onload =function()
                             temp=0;
                         }                        
                     
-            },4000);
+            },2000);
 });
 /*
 
