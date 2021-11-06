@@ -6,7 +6,7 @@ window.onload =function()
    {
     var img = document.createElement('img');
     img.setAttribute("src", images[i]);
-    img.setAttribute("height",300);
+    img.setAttribute("height",400);
     img.setAttribute("width",600);
     img.id = 'img'+[i];
     $(img).appendTo('#slideShow');
@@ -32,7 +32,7 @@ window.onload =function()
                         temp++;
                         if(temp>images.length)
                         {                            
-                            $(tempIMG).hide();
+                            $(divID.lastElementChild.hide());
                             temp=0;
                         }                        
                     
