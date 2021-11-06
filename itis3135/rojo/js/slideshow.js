@@ -1,4 +1,5 @@
 var images = ["images/blender.jpg","images/drinkCooler.jpg","images/steakAzteka.jpg","images/Texmex.jpg"];
+var alts = ["cat","dog","wolf","tiger","dragon","space"]
 
 window.onload =function()
 {
@@ -6,7 +7,7 @@ window.onload =function()
    {
     var img = document.createElement('img');
     img.setAttribute("src", images[i]);
-    img.setAttribute("height",400);
+    img.setAttribute("height",300);
     img.setAttribute("width",600);
     img.id = 'img'+[i];
     $(img).appendTo('#slideShow');
@@ -38,3 +39,23 @@ window.onload =function()
                     
             },2000);
 });
+/*
+
+
+    $(".slide:first").show();
+        
+
+
+function Next(slide)
+{
+    slide.fadeOut();
+        if(typeof slide.next().attr('src') !== "undefinded")
+            {
+                slide.next().fadeIn();
+            }
+        else
+            {
+                $('.slide:first').fadeIn();
+            }
+}
+*/
