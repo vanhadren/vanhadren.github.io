@@ -5,7 +5,8 @@
             height: auto;
             text-align: center;
             background-color: rgb(200,200,50);
-            display: inline-flex;
+            display: inline;
+            padding:20px;
         }
 h1{
    color: rgb(200, 0, 50); 
