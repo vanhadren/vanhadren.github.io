@@ -36,6 +36,7 @@ window.onload =function()
                         if(temp>0)
                         {
                             $(tempIMG).prev().hide();
+                            $(divID.lastElementChild).hide();
                         }                                                
                         $(tempIMG).show();
                         temp++;
