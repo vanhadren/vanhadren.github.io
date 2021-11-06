@@ -1,6 +1,6 @@
 #header, #footer {            
             font-family: Marker felt, fantasy;
-            color: rgb(250,0,0);
+            color: rgb(150,0,0);
             width: 100%;
             height: auto;
             vertical-align: bottom;
@@ -19,8 +19,8 @@ h1{
     width : 100%;
 }
 body{
-    background-color: rgb(25, 100, 50);
-    color:rgb(250,0,0);
+    background-color: rgb(25, 125, 50);
+    color:rgb(150,0,0);
     text-align: center;
 }
 main{
@@ -40,7 +40,7 @@ a:link, a:visited{
 
 }
 a:hover{
-    color :rgb(250,0,0);
+    color :rgb(150,0,0);
 }
 html,body{
     margin:0;
@@ -70,7 +70,7 @@ img{
 }
 p{
     font-family: fantasy;
-    color: rgb(250,0,0);
+    color: rgb(150,0,0);
     font-size: medium;
 }
 .inline{
