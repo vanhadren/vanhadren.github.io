@@ -19,6 +19,7 @@ h1{
 body{
     background-color: rgb(25, 175, 50);
     color:rgb(200, 0, 50);
+    text-align: center;
 }
 main{
     width: 100%;
