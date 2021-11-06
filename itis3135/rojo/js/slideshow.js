@@ -1,7 +1,8 @@
 var images = ["images/blender.jpg","images/drinkCooler.jpg","images/steakAzteka.jpg","images/Texmex.jpg"];
 var alts = ["cat","dog","wolf","tiger","dragon","space"]
+var comingSoon = "images/comingSoon.jpg";
 var comingSoonIMG = document.createElement("img");
-comingSoonIMG.setAttribute("src",images/comingSoon.jpg)
+comingSoonIMG.setAttribute("src",comingSoon.jpg)
 comingSoonIMG.setAttribute("height",300);
 comingSoonIMG.setAttribute("width",600);
 
