@@ -43,8 +43,9 @@ window.onload =function()
                         {                            
                             $(divID.lastElementChild).hide();
                             temp=0;
-                            $(divID.lastElementChild).show();
-                        }                        
+                            
+                        }  
+                        $(divID.lastElementChild).show();                      
                     
             },2000);
 });
