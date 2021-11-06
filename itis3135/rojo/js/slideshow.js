@@ -1,4 +1,5 @@
 var images = ["images/blender.jpg","images/drinkCooler.jpg","images/steakAzteka.jpg","images/Texmex.jpg"];
+var comingSoonIMG = "images/comingSoon.jpg"
 var alts = ["cat","dog","wolf","tiger","dragon","space"]
 
 window.onload =function()
@@ -14,6 +15,7 @@ window.onload =function()
     $(img).hide();
     
    }
+   $(comingSoonIMG).appendTo('#slideShow').hide();
 
  }
 
@@ -35,7 +37,7 @@ window.onload =function()
                         {                            
                             $(divID.lastElementChild).hide();
                             temp=0;
-                            $(divID.firstElementChild).show();
+                            $(divID.comingSoonIMG).show();
                         }                        
                     
             },2000);
