@@ -1,10 +1,7 @@
 var images = ["images/blender.jpg","images/drinkCooler.jpg","images/steakAzteka.jpg","images/Texmex.jpg"];
 var alts = ["cat","dog","wolf","tiger","dragon","space"]
-var comingSoon = "images/comingSoon.jpg";
-var comingSoonIMG = document.createElement("img");
-comingSoonIMG.setAttribute("src", comingSoon.jpg)
-comingSoonIMG.setAttribute("height",300);
-comingSoonIMG.setAttribute("width",600);
+var comingSoon =[ "images/comingSoon.jpg"];
+
 
 window.onload =function()
 {
@@ -19,6 +16,11 @@ window.onload =function()
     $(img).hide();
     
    }
+   var comingSoonIMG = document.createElement("img");
+   comingSoonIMG.setAttribute("src", comingSoon[0])
+   comingSoonIMG.setAttribute("height",300);
+   comingSoonIMG.setAttribute("width",600);
+   comingSoonIMG.id = 'comingSoonIMG'+[0];
    $(comingSoonIMG).appendTo('#slideShow').hide();
 
  }
