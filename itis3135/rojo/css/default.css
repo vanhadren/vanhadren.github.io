@@ -55,6 +55,7 @@ html,body{
 }
 lh{
     font-size: 24px;
+    text-align: center;
 }
 li{
     font-size: 20px;
@@ -63,6 +64,7 @@ li{
 .lilPic{
     width:150px;
     height: 100px;
+    align-self: flex-start;
 }
 img{
     border-radius: 10%;
