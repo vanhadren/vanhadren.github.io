@@ -64,7 +64,6 @@ li{
 .lilPic{
     width:150px;
     height: 100px;
-    align-self: flex-start;
 }
 img{
     border-radius: 10%;
@@ -89,4 +88,7 @@ p{
 	background-color: dimgrey;
 	font-style: italic;
 	color: floralwhite;
+}
+.form{
+    text-align: center;
 }
