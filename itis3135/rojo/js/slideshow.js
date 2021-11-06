@@ -41,7 +41,7 @@ window.onload =function()
                         temp++;
                         if(temp>images.length-1)
                         {                            
-                            $(temoIMG).prev().hide();
+                            $(tempIMG).prev().hide();
                             temp=0;
                             $(divID.lastElementChild).show();
                         }                        
