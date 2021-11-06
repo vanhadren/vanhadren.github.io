@@ -33,7 +33,7 @@ window.onload =function()
                         temp++;
                         if(temp>images.length)
                         {                            
-                            $(divID.lastElementChild.hide());
+                            $(divID.lastElementChild).hide();
                             temp=0;
                         }                        
                     
