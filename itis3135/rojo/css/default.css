@@ -68,3 +68,8 @@ img{
     border: 2px solid black;
     
 }
+p{
+    font-family: fantasy;
+    color: rgb(200, 0, 50);
+    font-size: medium;
+}
