@@ -45,8 +45,9 @@ window.onload =function()
                             temp=0;
                             
                         }  
+                        if(temp==0){
                         $(divID.lastElementChild).show();                      
-                    
+                        }
             },2000);
 });
 /*
