@@ -38,23 +38,3 @@ window.onload =function()
                     
             },2000);
 });
-/*
-
-
-    $(".slide:first").show();
-        
-
-
-function Next(slide)
-{
-    slide.fadeOut();
-        if(typeof slide.next().attr('src') !== "undefinded")
-            {
-                slide.next().fadeIn();
-            }
-        else
-            {
-                $('.slide:first').fadeIn();
-            }
-}
-*/
