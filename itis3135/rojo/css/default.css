@@ -19,3 +19,9 @@ body{
     width: 100%;
     background-color: rgb(25, 175, 50);
 }
+.tile{
+    display:block;
+    padding: 10%;
+    border: 3px rgb(200, 0, 50);
+    margin-right: 10px;
+}
