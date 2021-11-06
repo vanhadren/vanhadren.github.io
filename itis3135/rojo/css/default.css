@@ -39,3 +39,7 @@ a:link, a:visited{
 a:hover{
     color :rgb(200, 0, 50);
 }
+html,body{
+    margin:0;
+    padding:0;
+}
