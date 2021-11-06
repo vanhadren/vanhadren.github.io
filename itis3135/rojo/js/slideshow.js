@@ -35,6 +35,7 @@ window.onload =function()
                         {                            
                             $(divID.lastElementChild).hide();
                             temp=0;
+                            $(tempIMG).show();
                         }                        
                     
             },2000);
