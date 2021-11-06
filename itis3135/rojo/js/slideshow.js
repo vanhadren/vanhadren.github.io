@@ -33,19 +33,19 @@ window.onload =function()
                     var divID = document.getElementById('slideShow');
                     var tempID = 'img'+ temp;
                     var tempIMG = document.getElementById(tempID);
-                        
-                        if(temp>images.length-1)
-                        {                            
-                            $(divID.lastElementChild-1).hide();
-                            temp=0;
-                            $(divID.lastElementChild).show();
-                        }                        
-                    if(temp>0)
+                        if(temp>0)
                         {
                             $(tempIMG).prev().hide();
                         }                                                
                         $(tempIMG).show();
                         temp++;
+                        if(temp>images.length-1)
+                        {                            
+                            $(temoIMG).prev().hide();
+                            temp=0;
+                            $(divID.lastElementChild).show();
+                        }                        
+                    
             },2000);
 });
 /*
