@@ -33,6 +33,9 @@ main{
 }
 
 a:link, a:visited{
-    color :rgb(25, 175, 50)
+    color :rgb(25, 175, 50);
 
+}
+a:hover{
+    color :rgb(200, 0, 50);
 }
