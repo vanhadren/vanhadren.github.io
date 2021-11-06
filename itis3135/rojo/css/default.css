@@ -31,6 +31,8 @@ main{
     font-size: small;
     font-family: Marker felt, fantasy;
 }
-nav{
-    color:rgb(25, 175, 50)
+
+a:link, a:visited{
+    color :rgb(25, 175, 50)
+
 }
