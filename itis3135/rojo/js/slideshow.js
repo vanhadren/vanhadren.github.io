@@ -39,9 +39,9 @@ window.onload =function()
                         }                                                
                         $(tempIMG).show();
                         temp++;
-                        if(temp>images.length-1)
+                        if(temp>images.length)
                         {                            
-                            $(tempIMG).prev().hide();
+                            $(divID.lastElementChild).hide();
                             temp=0;
                             $(divID.lastElementChild).show();
                         }                        
