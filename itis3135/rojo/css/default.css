@@ -16,8 +16,8 @@ h1{
     width : 100%;
 }
 body{
-    width: 100%;
     background-color: rgb(25, 175, 50);
+    color:rgb(200, 0, 50);
 }
 main{
     width: 80%;
