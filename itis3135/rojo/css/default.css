@@ -42,7 +42,7 @@ a:link, a:visited{
 
 }
 a:hover{
-    color :rgb(150,0,0);
+    color :rgb(225, 225, 225);
 }
 html,body{
     margin:0;
