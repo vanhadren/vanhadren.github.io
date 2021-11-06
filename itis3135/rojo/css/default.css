@@ -1,5 +1,5 @@
 #header, #footer {            
-            font-family: Marker felt, fantasy;
+            font-family: 'Kalam';
             color: rgb(150,0,0);
             width: 100%;
             height: auto;
@@ -9,6 +9,8 @@
         }
         
 h1{
+   font-family: 'Aclonica';
+   font-size: 22px;
    color: rgb(150,0,0); 
    padding: 5px;
 }
@@ -69,7 +71,7 @@ img{
     
 }
 p{
-    font-family: fantasy;
+    font-family: 'Kalam';
     color: rgb(150,0,0);
     font-size: medium;
 }
