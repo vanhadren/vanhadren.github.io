@@ -39,7 +39,7 @@ window.onload =function()
                         }                                                
                         $(tempIMG).show();
                         temp++;
-                        if(temp>images.length)
+                        if(temp>images.length-1)
                         {                            
                             $(divID.lastElementChild-1).hide();
                             temp=0;
