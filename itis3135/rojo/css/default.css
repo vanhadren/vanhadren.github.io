@@ -33,7 +33,6 @@ body{
     
 }
 main{
-    padding: 10px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -94,10 +93,16 @@ p{
 }
 .center{
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .left{
     text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .right{
     text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
 }
