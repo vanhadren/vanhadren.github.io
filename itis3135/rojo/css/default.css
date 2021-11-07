@@ -92,7 +92,7 @@ p{
 	color: floralwhite;
 }
 .center{
-    
+    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     height : auto;
@@ -103,7 +103,7 @@ p{
 
 }
 .left{
-    
+    margin-left: 25%;
     padding-left: 10px;
     padding-right: 10px;
     height : auto;
@@ -114,6 +114,8 @@ p{
 
 }
 .right{    
+    text-align: right;
+    margin-right: 25%;
     padding-left: 10px;
     padding-right: 10px;
     height : auto;
