@@ -102,8 +102,8 @@ p{
 
 .container{
     font-size: small;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25%;
+    margin-right: 25%;
     padding-left: 10px;
     padding-right: 10px;
     display: block;
