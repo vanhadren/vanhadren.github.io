@@ -92,25 +92,25 @@ p{
 	color: floralwhite;
 }
 .center{
-    text-align: center;
+    
     padding-left: 10px;
     padding-right: 10px;
     height : auto;
-    width : 100px;
+    width : 200px;
 }
 .left{
-    text-align: left;
+    
     padding-left: 10px;
     padding-right: 10px;
     height : auto;
-    width : 100px;
+    width : 200px;
 }
 .right{
-    text-align: right;
+    
     padding-left: 10px;
     padding-right: 10px;
     height : auto;
-    width : 100px;
+    width : 200px;
 }
 #reviewContainer
 {
