@@ -61,7 +61,7 @@ lh{
 }
 li{
     font-size: 20px;
-    color:background-color: rgb(200,200,50,.85;
+    color: rgba(200,200,50,.85);
 }
 .lilPic{
     width:150px;
@@ -73,7 +73,7 @@ img{
 }
 .button{
     font: bold 20px Arial;
-    background-color: rgb(200,200,50,.85);
+    background-color: rgba(200,200,50,.85);
     padding: 2px 5px 2px 5px;
     border: 2px solid black;
     
