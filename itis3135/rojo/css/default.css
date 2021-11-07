@@ -96,12 +96,12 @@ p{
 }
 
 .container{
-    font-size: auto;
+    font-size: small;
     margin-left: 15%;
     margin-right: 15%;
     padding-left: 10px;
     padding-right: 10px;
-   orientation: inline;
+   
     height : 225px;
     width : auto;
     border: 2px solid black;
