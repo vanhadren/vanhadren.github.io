@@ -95,19 +95,24 @@ p{
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    height : auto;
+    width : 100px;
 }
 .left{
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
+    height : auto;
+    width : 100px;
 }
 .right{
     text-align: right;
     padding-left: 10px;
     padding-right: 10px;
+    height : auto;
+    width : 100px;
 }
 #reviewContainer
 {
-    height : auto;
-    width : 400px;
+    
 }
