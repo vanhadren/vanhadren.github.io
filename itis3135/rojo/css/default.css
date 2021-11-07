@@ -4,7 +4,7 @@
             width: 100%;
             height: auto;
             vertical-align: bottom;
-            background-color: background-color: rgb(200,200,50,.85;
+            background-color: rgba(200,200,50,.85);
             padding:10px;
             text-align: center;
         }
@@ -73,7 +73,7 @@ img{
 }
 .button{
     font: bold 20px Arial;
-    background-color: background-color: rgb(200,200,50,.85;
+    background-color: rgb(200,200,50,.85);
     padding: 2px 5px 2px 5px;
     border: 2px solid black;
     
