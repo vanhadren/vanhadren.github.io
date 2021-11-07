@@ -107,15 +107,13 @@ p{
     margin-right: 20%;
     padding-left: 10px;
     padding-right: 10px;
-   
+   text-align: center;
     height : 225px;
     width : auto;
     border: 1px solid black;
     background-color: rgba(50, 200, 200, 0.85);
 }
 .container p{
-    text-align: justify;
-    width: auto;
     margin-left: auto;
     margin-right: auto;
 }
