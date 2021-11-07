@@ -1,4 +1,4 @@
-var images = ["images/blender.jpg","images/drinkCooler.jpg","images/steakAzteka.jpg","images/Texmex.jpg"];
+var images = ["images/blender.jpg","images/drinkCooler.jpg","images/steakAzteka.jpg","images/Texmex.jpg","images/chickennachos.jpg","images/corndog.jpg","images/desserts.jpg","images/friedicecream.jpg","images/quesadilla.jpg","images/teamphoto.jpg"];
 var alts = ["cat","dog","wolf","tiger","dragon","space"]
 var comingSoon =[ "images/comingSoon.jpg"];
 
