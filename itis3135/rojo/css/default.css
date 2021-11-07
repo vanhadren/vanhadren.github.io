@@ -121,7 +121,7 @@ p{
 }
 .right{    
     
-    margin-left: 35%;
+    margin-left: 45%;
     padding-left: 10px;
     padding-right: 10px;
     height : auto;
@@ -132,5 +132,9 @@ p{
 }
 #reviewContainer
 {
-   
+   background-color: rgb(225, 225, 225);
+   max-height: auto;
+   max-width: auto;
+   padding:10px;
+   border:5px dashed rgba(200,200,50,.85)
 }
