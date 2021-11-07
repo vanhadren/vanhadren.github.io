@@ -6,7 +6,9 @@
             vertical-align: bottom;
             background-color: rgba(200,200,50,.85);
             padding:10px;
-            text-align: center;
+            text-align: center;              
+            align-items: center;
+            justify-content: center;
         }
         
 h1{
