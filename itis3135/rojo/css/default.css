@@ -101,7 +101,8 @@ p{
     margin-right: 15%;
     padding-left: 10px;
     padding-right: 10px;
-   
+    align-items: center;
+    justify-content: center;
     height : 225px;
     width : auto;
     border: 2px solid black;
