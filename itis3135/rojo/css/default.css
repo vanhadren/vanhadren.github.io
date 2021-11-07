@@ -70,8 +70,8 @@ li{
     color: rgba(200,200,50,.85);
 }
 .lilPic{
-    max-width: 400px;
-    max-height: 200px;
+    max-width: 800px;
+    max-height: 100px;
 }
 img{
     border-radius: 10%;
