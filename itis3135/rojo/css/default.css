@@ -97,6 +97,8 @@ p{
     padding-right: 10px;
     height : auto;
     width : 200px;
+    border: 2px solid black;
+
 }
 .left{
     
@@ -104,13 +106,15 @@ p{
     padding-right: 10px;
     height : auto;
     width : 200px;
+    border: 2px solid black;
+
 }
-.right{
-    
+.right{    
     padding-left: 10px;
     padding-right: 10px;
     height : auto;
     width : 200px;
+    border: 2px solid black;
 }
 #reviewContainer
 {
