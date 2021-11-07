@@ -108,12 +108,12 @@ p{
 
 }
 .left{
-    margin-left: 25%;
+    margin-left: 15%;
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
     height : auto;
-    width : 275px;
+    width : 350px;
     border: 2px solid black;
     background-color: rgba(50, 200, 200, 0.85);
     
