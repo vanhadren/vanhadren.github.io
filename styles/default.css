@@ -100,11 +100,14 @@ img{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-     height: 200; 
-     width: 500; 
+     height: 200px; 
+     width: 500px; 
      position: relative;
 }
-
+#slide{
+    height:180px;
+    width: 450px;
+}
 /* SCSS HEX 
 $rich-black-fogra-29: #001219ff;
 $blue-sapphire: #005f73ff;
