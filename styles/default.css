@@ -108,6 +108,9 @@ img{
     height:180px;
     width: 450px;
 }
+.bx-wrapper, .bx-window {
+    margin:0 auto; width:250px !important;
+}
 /* SCSS HEX 
 $rich-black-fogra-29: #001219ff;
 $blue-sapphire: #005f73ff;
