@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/default.css" rel="stylesheet" type="text/css">
+    <title> El Chile Rojo -- Contact US Page -- </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/headerFooter.js" type="text/javascript"></script>
+    <script src="js/slideshow.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <main>
+        <div id="header"></div>
+        <h1>Customer Survey</h1>
+        <div id=reviewContainer>
+            <form action="#">
+                <div class="container" id="accountInfo">
+                    <h2>Contact Information</h2>
+                    <p>Please enter full name, a valid email,<br>and your phone number with area code.</p>
+                    <input type="text" placeholder="name" required><br>
+                    <input type="text" placeholder="10 digit phone number" minlength="10" required><br>
+                    <input type="text" placeholder="email address" required><br>
+                    <button id="button" type="submit">Submit</button>
+                </div>
+                <div class="container" id="review">
+                    <h2> </h2>
+                    <p> Let us know how you feel about the company below:</p><br>
+                    <select size="3">
+                        <option value="0"> I am satisfied with the company</option>
+                        <option value="1"> I am not satisfied with the company</option>
+                        <option value="2"> I have no feelings about the company</option>
+                    </select> 
+                </div>
+                <div class="container" id="accountIntrest">
+                    <h2>Get added to our distrobution chain</h2>
+                    <p><strong>Choose from the following:</strong></p>
+                    <label for="notinterested">
+                        <p>I do not want the company newsletter</p> 
+                        <input id="notinterested" type="radio" name="yes - no" value="no"></label>
+                    
+                    <label for="interested">
+                        <p>I would like to receive the company newsletter</p>
+                        <input id="interested" type="radio" name="yes - no" value="yes" checked></label>
+                      
+                </div>                
+                <div class="container" id="accountSignUP">
+                    <h2>Choose What To Receive</h2>
+                    <p>please send me:</p><br>
+                    <label for="coupons"><input id="coupons" type="checkbox" name="receivables"
+                            checked> coupons</label><br>
+                    <label for="sales"><input id="sales" type="checkbox" name="receivables"
+                            checked></label> specials<br>
+                    <label for="news"><input id="news" type="checkbox" name="receivables"
+                            checked></label>  events <br>
+                </div>
+                
+               
+
+
+            </form>
+
+        </div>
+            <div id="footer"></div>
+        </div>    
+    </main>
+</body>
+
+</html>
