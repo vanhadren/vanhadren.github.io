@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.slider').bxSlider( {
+    $('#slider').bxSlider( {
         preloadImages :         'all', //preload images
         randomStart :           true, //random starting slide
         auto :                  true, //infinite transitions
