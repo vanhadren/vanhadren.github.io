@@ -104,7 +104,13 @@ img{
      width: 500; 
      position: relative;
 }
-
+#slide{
+    height:180px;
+    width: 450px;
+}
+.bx-wrapper, .bx-window {
+    margin:0 auto; width:250px !important;
+}
 
 /* SCSS HEX 
 $rich-black-fogra-29: #001219ff;
