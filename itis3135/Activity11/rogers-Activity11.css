@@ -22,6 +22,11 @@ li {
 p {
 	padding-bottom: .5em;
 }
-header footer{
+#header
+{
 text-align: center;
+}
+#footer
+{
+	text-align: center;
 }
