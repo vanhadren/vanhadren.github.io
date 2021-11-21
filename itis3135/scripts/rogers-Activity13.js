@@ -3,7 +3,7 @@ $(document).ready(function()
     $.ajax
     ({
         type: "get",
-        url: "compnents/team.json",
+        url: "components/team.json",
         beforeSend: function() {
             $("#team").html("Loading...");
         },
