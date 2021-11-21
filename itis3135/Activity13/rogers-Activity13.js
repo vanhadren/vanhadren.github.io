@@ -15,17 +15,16 @@ $(document).ready(function()
         success: function(data) 
         {
             $("#team").html("");
-            $(data).find("management").children().each(function(temp, tempVal) 
+            $.each(data, function()
             {
-                var xmlDoc = $(this);
-                $("#team").append
-                (
-                          "name: " + tempVal.name + "<br><br>" +
-                          "title: " + tempVal.title + "<br><br>" +
-                          "bio: " + tempVal.bio + "<br><br>"
-                );
-            
-            });
+                $.each(this, function(temp, tempVal)                
+                    {              
+                        $("#team").append("name: " + tempVal.name + "<br><br>" +
+                                        "title: " + tempVal.title + "<br><br>" +
+                                        "bio: " + tempVal.bio + "<br><br>"
+                                        );            
+                    });
+            }       );
         }
     });
 });
