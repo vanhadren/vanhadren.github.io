@@ -1,7 +1,10 @@
-$(document).ready(function() {
-	$("#nav_list li").click(function() {
+$(document).ready(function() 
+{
+	$("#nav_list li").click(function() 
+    {
         let title = $(this).children("a").attr("title");
-        $.get(title + ".json", function(data, status){
+        $.get(title + ".json", function(data, status)
+        {
             data = data['speakers'][0];
             $("main h1").html(data['title']);
             $("main h2").html(data['month']+"<br/>"+ data['speaker']);
