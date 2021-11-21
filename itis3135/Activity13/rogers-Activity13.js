@@ -19,8 +19,8 @@ $(document).ready(function()
             {
                 $.each(this, function(temp, tempVal)                
                     {              
-                        $("#team").append("NAME" + "<br>" + tempVal.name + "<br>" +
-                                        "TITLE" + "<br>" +  tempVal.title + "<br>" +
+                        $("#team").append("NAME" + "<br>" + "&emsp;"+ tempVal.name + "<br>" +
+                                        "TITLE" + "<br>" + "&emsp;"+  tempVal.title + "<br>" +
                                         "BIO" + "<br>" +  tempVal.bio + "<br><br>"
                                         );            
                     });
