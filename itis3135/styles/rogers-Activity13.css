@@ -9,10 +9,15 @@ body {
 	width: 697px;
 	margin: 15px auto 0 auto;
 }
+
 header {
+	/*
 	height: 100px;
 	background: url('logo.gif') no-repeat 25px;
+	*/
+	text-align: center;
 }
+
  main h2 {
 	font-size: 14px;
 	font-weight: bold;
