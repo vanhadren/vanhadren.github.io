@@ -1,7 +1,9 @@
-$(document).ready(function() {
-    $.ajax({
+$(document).ready(function()
+ {
+    $.ajax
+    ({
         type: "get",
-        url: "team.xml",
+        url: "team.json",
         beforeSend: function() {
             $("#team").html("Loading...");
         },
@@ -9,15 +11,20 @@ $(document).ready(function() {
         error: function(xhr, status, error) {
             alert("Error: " + xhr.status + " - " + error);
         },
-        dataType: "xml",
-        success: function(data) {
+        dataType: "json",
+        success: function(data) 
+        {
             $("#team").html("");
-            $(data).find("management").children().each(function() {
+            $(data).find("management").children().each(function(temp, tempVal) 
+            {
                 var xmlDoc = $(this);
                 $("#team").append
-                ("<h3>" + xmlDoc.find("name").text() + "</h3>" +
-                          xmlDoc.find("title").text() + "<br>" +
-                          xmlDoc.find("bio").text() + "<br>");
+                (
+                          "name: " + tempVal.name + "<br><br>" +
+                          "title: " + tempVal.title + "<br><br>" +
+                          "bio: " + tempVal.bio + "<br><br>"
+                );
+            
             });
         }
     });
