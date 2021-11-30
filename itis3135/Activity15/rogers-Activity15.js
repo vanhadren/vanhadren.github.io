@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-    $.getJSON("team.json", function(data)
+    $.getJSON("facultyList.json", function(data)
     {
         $.each(data, function()
         {
