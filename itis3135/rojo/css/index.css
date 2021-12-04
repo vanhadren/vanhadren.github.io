@@ -84,6 +84,8 @@ img{
     border:5px dashed rgb(150,0,0);
 }
 #slider{
-    text-align: center;
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
 
 }
