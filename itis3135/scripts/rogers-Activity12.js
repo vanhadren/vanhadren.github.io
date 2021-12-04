@@ -5,7 +5,7 @@ $(document).ready(function() {
         slideMargin: 20,
         randomStart:true,
         captions:true,
-        speed:3000,
+        speed:5500,
         pagerType:'short',
         pagerSelector:'#id_pager'
     });
