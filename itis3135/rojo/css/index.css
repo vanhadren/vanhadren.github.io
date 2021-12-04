@@ -83,7 +83,7 @@ img{
     margin-right: 15%;
     border:5px dashed rgb(150,0,0);
 }
-#ul{
+ul{
    justify-content: center;
    display: flex;
 
