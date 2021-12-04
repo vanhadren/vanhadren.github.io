@@ -1,18 +1,26 @@
 header, footer {            
-            font-family: 'Kalam';
-            color: rgb(150,0,0);
-            width: 100%;
-            height: auto;
-            vertical-align: bottom;
-            background-color: rgb(200,200,50);
-            padding:10px;
-            text-align: center;              
-            align-items: center;
-            justify-content: center;
-            display:inline-block;
-            margin-right: auto;
-            margin-left: auto;
-        }
+    font-family: 'Kalam';
+    color: rgb(150,0,0);
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    background-color: rgb(200,200,50);
+    padding:10px;
+    text-align: center;              
+    align-items: center;
+    justify-content: center;
+    display:inline-block;
+    margin-right: auto;
+    margin-left: auto;
+                }
+.bx-wrapper {
+    margin-bottom: 20px;
+}
+#id_pager {
+    text-align: center;
+    font-size: 90%;
+    color: green;
+}          
         
 h1{
    font-family: 'Aclonica';
@@ -70,9 +78,8 @@ li{
     color: rgba(200,200,50,.85);
 }
 .lilPic{
-    width:300px;
-    height:200px;
-   
+    max-width: 400px;
+    max-height: 200px;
 }
 img{
     border-radius: 10%;
@@ -137,7 +144,4 @@ input{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-.header{
-    text-align: left;
 }
