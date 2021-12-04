@@ -9,6 +9,7 @@ header, footer {
     width: auto;
     margin-left: 15%;
     margin-right: 15%;
+    border:5px dashed rgb(150,0,0);
 }
   
 h1 {
@@ -51,6 +52,7 @@ img{
 
 .bx-wrapper {
     margin-bottom: 20px;
+    border:5px dashed rgb(150,0,0);
 }
 
 #id_pager {
@@ -79,4 +81,5 @@ img{
     width: auto;
     margin-left: 15%;
     margin-right: 15%;
+    border:5px dashed rgb(150,0,0);
 }
