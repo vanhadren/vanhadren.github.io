@@ -1,0 +1,56 @@
+header, footer {   
+    font-family: 'Kalam';
+    color: rgb(150,0,0);
+    width: 100%;
+    background-color: rgb(200,200,50);
+    padding:10px;
+    text-align: center;
+}
+  
+h1 {
+	margin: 0;
+	padding: 3px 0 3px 25px;
+	border: solid green 1px;
+	color: green;
+}
+
+body{
+    background-color: rgb(75, 150, 50);
+    color:rgb(150,0,0);
+    width: 540px;
+	margin: 10 auto;
+    padding: 20px;
+    border: 3px solid rgba(150, 0, 0, .5);
+    
+}
+
+
+main{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.bx-wrapper {
+    margin-bottom: 20px;
+}
+
+#id_pager {
+    text-align: center;
+    font-size: 90%;
+    color: green;
+} 
+
+#Welcome_Hours {
+    background-color:rgb(200,200,50);
+    text-align: center;
+    padding: 5px;
+    color: rbga(200,200,50,.85);
+
+
+}
+
+#slideshow {
+    image-rendering: auto;
+    color: rgb(200,200,50);
+}

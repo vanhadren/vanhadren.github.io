@@ -4,7 +4,7 @@
 
     <head>
         <meta charset="utf-8">
-        <link href="css/default.css" rel="stylesheet" type="text/css">
+        <link href="css/index.css" rel="stylesheet" type="text/css">
         <title> El Chile Rojo -- Home Page -- </title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
@@ -15,35 +15,38 @@
         
         <main>
             <div id="header"></div> 
-            <h1>
-                <em>Welcome to the official El Chile Rojo website</em>
-            </h1>
-        </figure>
-        <ul style="margin-right: 15%; margin-left: 10%;">
-            <lh> <strong>Hours of Operation</strong> </lh><br><br>
-                <li class ="tile"> Monday - 11:00am - 9:30pm </li> 
-                <li class ="tile"> Wednesday - 11:00am - 9:30pm </li> 
-                <li class ="tile"> Friday - 11:00am - 10:00pm</li>   
-                <li class ="tile"> Sunday - <stong>CLOSED</stong></li><br>
-                <li class ="tile"> Tuesday - 11:00am - 9:30pm  </li>
-                <li class ="tile"> Thursday - 11:00am - 9:30pm</li>
-                <li class ="tile"> Saturday - 11:00am - 10:00pm</li><br>
-        </ul>
-        <h1>Photo Gallery</h1>
-        <p>Check out our local Favorites!</p>
-        <ul id="slider">
-            <li><img src="images/blender.jpg"       alt="" title="bar view"></li>
-            <li><img src="images/chickennachos.jpg" alt="" title="Chicken Nachos"></li>
-            <li><img src="images/corndog.jpg"       alt="" title="Corn Dog"></li>
-            <li><img src="images/desserts.jpg"      alt="" title="Desserts"></li>
-            <li><img src="images/drinkCooler.jpg"   alt="" title="Speciality Drinks"></li>
-            <li><img src="images/quesadilla.jpg"    alt="" title="Quesadilla"></li>
-            <li><img src="images/steakAzteka.jpg"   alt="" title="Steak Azteka"></li>
-            <li><img src="images/Texmex.jpg"        alt="" title="TexMex"></li>
-            <li><img src="images/comingSoon.jpg"    alt="" title="More Photos Coming Soon!"></li>
-        </ul>
-        <p id="id_pager"></p>
-        <br>
+                <div id = "Welcome_Hours">
+                    <h1>
+                        <em>Welcome to the official El Chile Rojo website</em>
+                    </h1>
+                <ul style="margin-right: 25%; margin-left: 25%;">
+                    <lh> <strong>Hours of Operation</strong> </lh><br><br>
+                        <li class ="tile"> Monday - 11:00am - 9:30pm </li> 
+                        <li class ="tile"> Wednesday - 11:00am - 9:30pm </li> 
+                        <li class ="tile"> Friday - 11:00am - 10:00pm</li>   
+                        <li class ="tile"> Sunday - <stong>CLOSED</stong></li><br>
+                        <li class ="tile"> Tuesday - 11:00am - 9:30pm  </li>
+                        <li class ="tile"> Thursday - 11:00am - 9:30pm</li>
+                        <li class ="tile"> Saturday - 11:00am - 10:00pm</li><br>
+                </ul>
+            </div>
+            <div id = "slideshow">
+                <h1>Photo Gallery</h1>
+                <p>Check out our local Favorites!</p>
+                <ul id="slider">
+                    <li><img src="images/blender.jpg"       alt="" title="bar view"></li>
+                    <li><img src="images/chickennachos.jpg" alt="" title="Chicken Nachos"></li>
+                    <li><img src="images/corndog.jpg"       alt="" title="Corn Dog"></li>
+                    <li><img src="images/desserts.jpg"      alt="" title="Desserts"></li>
+                    <li><img src="images/drinkCooler.jpg"   alt="" title="Speciality Drinks"></li>
+                    <li><img src="images/quesadilla.jpg"    alt="" title="Quesadilla"></li>
+                    <li><img src="images/steakAzteka.jpg"   alt="" title="Steak Azteka"></li>
+                    <li><img src="images/Texmex.jpg"        alt="" title="TexMex"></li>
+                    <li><img src="images/comingSoon.jpg"    alt="" title="More Photos Coming Soon!"></li>
+                </ul>
+                <p id="id_pager"></p>
+                <br>
+            </div>
             <div id="footer"></div>
         </main>
         
@@ -54,7 +57,7 @@
 <!--
 1.  Develop fully functional HTML and CSS code for a minimum of 5 pages. 
     All code should be  separate i.e. CSS and JS in separate files.
-    
+
     menu *2pg
     company bio
     contact
