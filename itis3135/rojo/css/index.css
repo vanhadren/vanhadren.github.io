@@ -37,6 +37,10 @@ img{
     max-width: 400px;
     max-height: 200px;
 }
+.validatorPic{
+    max-width: 88px;
+    max-height: 31px;
+}
 
 .bx-wrapper {
     margin-bottom: 20px;
