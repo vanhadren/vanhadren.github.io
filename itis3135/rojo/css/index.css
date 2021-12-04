@@ -84,8 +84,7 @@ img{
     border:5px dashed rgb(150,0,0);
 }
 #ul{
-    width: auto;
-    margin-left: 15%;
-    margin-right: 15%;
+   justify-content: center;
+   display: flex;
 
 }
