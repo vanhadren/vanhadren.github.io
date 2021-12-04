@@ -83,6 +83,10 @@ li{
     font-size: 20px;
     color: rgba(200,200,50,.85);
 }
+img{
+    max-width: fit-content;
+    max-height:fit-content;
+}
 .lilPic{
     max-width: 400px;
     max-height: 200px;
