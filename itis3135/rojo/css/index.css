@@ -26,8 +26,7 @@ body{
 
 
 main{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: auto;
     text-align: center;
 }
 
@@ -51,6 +50,7 @@ main{
 }
 
 #slideshow {
-    image-rendering: auto;
+    
     color: rgb(200,200,50);
+
 }
