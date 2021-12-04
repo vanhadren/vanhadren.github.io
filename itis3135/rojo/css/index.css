@@ -65,18 +65,18 @@ img{
     background-color:rgb(200,200,50);
     text-align: center;
     padding: 5px;
-    color: rbga(200,200,50,.85);
+    color: rgb(150,0,0);;
     position: relative;
     width: auto;
     margin-left: 15%;
     margin-right: 15%;
 }
 
-#slideshow {
+#slideshow #slider {
     background-color:rgb(200,200,50);
     text-align: center;
     padding: 5px;
-    color: rgb(200,200,50);
+    color: rgb(150,0,0);
     position: relative;
     width: auto;
     margin-left: 15%;
