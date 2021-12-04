@@ -32,14 +32,17 @@ main{
 img{
     width:60%;
     height:90%;
+    border-radius: 25%;
 }
 .lilPic{
     max-width: 400px;
     max-height: 200px;
+    border-radius: 25%;
 }
 .validatorPic{
     max-width: 88px;
     max-height: 31px;
+    
 }
 
 .bx-wrapper {
@@ -67,5 +70,6 @@ img{
     padding: 5px;
     color: rgb(200,200,50);
     position: relative;
+    width: auto;
 
 }
