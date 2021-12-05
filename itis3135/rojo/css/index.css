@@ -38,8 +38,8 @@ main{
 }
 
 img{
-    width:60%;
-    height:90%;
+    max-width:150px;
+    max-height:75px;
     border-radius: 25%;
 }
 .lilPic{
