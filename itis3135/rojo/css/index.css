@@ -9,7 +9,6 @@ header, footer {
     width: auto;
     margin-left: 15%;
     margin-right: 15%;
-    border:5px dashed rgb(150,0,0);
     justify-content: center;
     display: flex;
     
@@ -88,10 +87,6 @@ img{
     border:5px dashed rgb(150,0,0);
 }
 #sliderBX{
-   
    margin-right: 25%;
    margin-left: 25%;
- 
-   
-
 }
