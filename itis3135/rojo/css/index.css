@@ -80,12 +80,12 @@ img{
     color: rgb(150,0,0);
     position: relative;
     width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
     border:5px dashed rgb(150,0,0);
 }
 #sliderBX{
    margin-right: 25%;
    margin-left: 25%;
-   width: auto;
+   
 }
