@@ -86,9 +86,10 @@ img{
     margin-right: 15%;
     border:5px dashed rgb(150,0,0);
 }
-#slider{
+#sliderBX{
    justify-content: center;
    margin-right: 25%;
    margin-left: 25%;
+   padding: 25%;
 
 }
