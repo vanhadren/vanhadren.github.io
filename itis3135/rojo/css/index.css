@@ -40,8 +40,6 @@ main{
 img{
     width: auto;
     height: auto;
-    max-width:150px;
-    max-height:75px;
     border-radius: 25%;
 }
 .lilPic{
