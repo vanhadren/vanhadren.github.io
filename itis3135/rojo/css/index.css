@@ -10,6 +10,9 @@ header, footer {
     margin-left: 15%;
     margin-right: 15%;
     border:5px dashed rgb(150,0,0);
+    justify-content: center;
+    display: flex;
+    
 }
   
 h1 {
@@ -82,9 +85,4 @@ img{
     margin-left: 15%;
     margin-right: 15%;
     border:5px dashed rgb(150,0,0);
-}
-ul{
-   justify-content: center;
-  
-
 }
