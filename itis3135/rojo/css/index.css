@@ -43,6 +43,7 @@ img{
     max-width: 300px;
     max-height: 450px;
     border-radius: 25%;
+    object-fit: scale-down;
 }
 .lilPic{
     max-width: 400px;
