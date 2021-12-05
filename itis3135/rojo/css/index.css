@@ -37,11 +37,9 @@ main{
     padding: 10px;
 }
 
-img{
-    width: 75%;
-    height: 50%;
-    max-width: 300px;
-    max-height: 450px;
+img{      
+    width: 300px;
+    height: 450px;
     border-radius: 25%;
     object-fit: scale-down;
 }

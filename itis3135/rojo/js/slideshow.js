@@ -3,7 +3,7 @@ $(document).ready(function() {
         auto: true,
         slideWidth: 500,
         slideMargin: 20,
-        randomStart:true,
+        randomStart:false,
         captions:true,
         speed:5500,
         pagerType:'short',
